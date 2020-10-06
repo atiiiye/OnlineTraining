@@ -1,0 +1,103 @@
+@import "fonts";
+@import 'base';
+
+header.container-fluid {
+    width: 100%;
+    height: 100%;
+
+    div.register-login {
+        width: 100%;
+        height: 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: $color-light-2;
+
+        img.logo {
+            width: 60px;
+            height: 60px;
+        }
+
+        div.search-box {
+            width: 50%;
+            display: flex;
+            flex-direction: row-reverse;
+
+            input.search {
+                width: 80%;
+                height: 25px;
+            }
+
+            button.input-group-prepend {
+                width: 10%;
+                border: 1px solid rgba($color: $color-green-3, $alpha: 1.0);
+                border-radius: 2px;
+                border-top-left-radius: 28px;
+                border-bottom-left-radius: 28px;
+                margin: 0;
+                padding-right: 0;
+                padding-left: 0;
+
+
+                &:hover {
+                    background-color: rgba($color: $color-green-3, $alpha: 1.0);
+
+                    box-shadow: 0 0 0 .1rem rgba($color: $color-light-2, $alpha: .5);
+
+                    div.input-group-text {
+
+                        i {
+                            color: #ffffff;
+                        }
+                    }
+
+                }
+
+                div.input-group-text {
+                    padding: 0;
+                    background: transparent;
+                    border: none;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+
+                    i {
+                        font-size: 25px;
+                        color: $color-green-3;
+                    }
+                }
+
+            }
+
+            input.search {
+                border-left: 0;
+
+            }
+        }
+
+        div.buttons {
+
+            margin: 1.5rem;
+
+            button.btn.login {
+                border-radius: 28px;
+                padding: .3rem 1.2rem;
+                border: 1px solid $color-green-3;
+                color: $color-green-3;
+
+                &:hover {
+                    background-color: rgba($color: $color-green-3, $alpha: 1.0);
+                    color: #ffffff;
+                    box-shadow: 0 0 0 .1rem rgba($color: $color-light-2, $alpha: .5);
+                }
+
+                &:focus {
+                    box-shadow: 0 0 0 .1rem rgba($color: $color-light-2, $alpha: .5);
+                }
+            }
+        }
+
+    }
+
+}
