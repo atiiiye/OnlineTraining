@@ -9,8 +9,9 @@
     <link rel="stylesheet" href="./src/css/reset.css" />
     <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="./src/css/home.css" />
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="./src/css/themify-icons.css">
     <link rel="stylesheet" href="./src/css/owl.carousel.min.css">
 </head>
@@ -30,12 +31,161 @@
                 <button class="btn login" type="button">ورود / ثبت نام</button>
             </div>
         </div>
-        <nav class="navbar navbar-expand-md ">
+        <div class="navbar navbar-expand-lg mainmenu">
             <div class="navbar-right">
+                <div class="hamburger-menu navbar-toggler" type="button" data-target="#coll-navbar" data-toggle="collapse">
+                    <span class="menu navbar-toggler-icon">
+                        <div class="menu-line menu-line-1"></div>
+                        <div class="menu-line menu-line-2"></div>
+                        <div class="menu-line menu-line-3"></div>
+                    </span>
+                </div>
+        
+                <div class="collapse navbar-collapse" id="coll-navbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link"><i class='fas fa-home'></i></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" data-toggle="dropdown" id="navbarDropdown">
+                                گزارش ها
+                                <i class="jet-dropdown-arrow fa fa-angle-down"></i>
+                            </a>
+                            <ul class="dropdown-menu" id="reports">
+                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">گزارش اصلی</a></li>
+                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">نظرسنجی</a></li>
+                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">انتقادات و پیشنهادات</a>
+                                </li>
+                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">تیکتینگ</a></li>
+                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">پست صوتی</a></li>
+                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">صدور قبض</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" data-toggle="dropdown">
+                                مانیتورینگ
+                                <i class="jet-dropdown-arrow fa fa-angle-down"></i>
+                            </a>
+                            <ul class="dropdown-menu" id="monitor">
+                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">وضعیت کانال</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" data-toggle="dropdown">
+                                نمودارها
+                                <i class="jet-dropdown-arrow fa fa-angle-down"></i>
+                            </a>
+                            <ul class="dropdown-menu" id="charts">
+                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">عملکرد داخلی ها</a></li>
+                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">مقایسه داخلی ها</a></li>
+                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">ساعت کاری</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" data-toggle="dropdown">
+                                کاربران
+                                <i class="jet-dropdown-arrow fa fa-angle-down"></i>
+                            </a>
+                            <ul class="dropdown-menu" id="users">
+                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">ثبت کاربر جدید</a></li>
+                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">لیست کاربران</a></li>
+                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">گروه کاربران</a></li>
+                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">افزودن سطح دسترسی</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" data-toggle="dropdown">
+                                دفتر تلفن
+                                <i class="jet-dropdown-arrow fa fa-angle-down"></i>
+                            </a>
+        
+                            <ul class="dropdown-menu" id="tel">
+                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">دفتر تلفن</a></li>
+                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">شماره های ویژه</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" data-toggle="dropdown">
+                                نمابر
+                                <i class="jet-dropdown-arrow fa fa-angle-down"></i>
+                            </a>
+                            <ul class="dropdown-menu" id="namabar">
+                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">ارسال نمابر</a></li>
+                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">نمابرهای دریافتی</a></li>
+                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">نمابرهای ارسالی</a></li>
+                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">بایگانی</a></li>
+                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">داخلی نمابر</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown" id="nav-item">
+                            <a class="nav-link" data-toggle="dropdown" id="navbarDropdown">
+                                سیستم تلفنی
+                                <i class="jet-dropdown-arrow fa fa-angle-down"></i>
+                            </a>
+                            <ul class="dropdown-menu" id="sub-menu-0">
+                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">گزارش وضعیت</a></li>
+        
+                                <li class="list-item dropdown" id="sub2-1">
+                                    <a href="#" class="dropdown-item" id="navbarDropdown" data-toggle="dropdown">
+                                        شماره های داخلی
+                                        <i class="jet-dropdown-arrow fa fa-angle-down"></i>
+                                    </a>
+                                    <ul class="dropdown-menu navbar-nav" id="sub-menu-1">
+                                        <li class="dropdown-item"><a href="#" class="dropdown-item">SIP</a></li>
+                                        <li class="dropdown-item"><a href="#" class="dropdown-item">IAX</a></li>
+                                    </ul>
+        
+                                </li>
+        
+                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">تماس های ورودی</a></li>
+                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">تماس های خروجی</a></li>
+                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">IVR</a></li>
+                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">Trunk</a></li>
+                                <li class="list-item dropdown" id="sub2-2">
+                                    <a href="#" class="dropdown-item dropdown" data-toggle="dropdown">
+                                        گروه بندی
+                                        <i class="jet-dropdown-arrow fa fa-angle-down"></i>
+                                    </a>
+                                    <ul class="dropdown-menu" id="sub-menu-1">
+                                        <li class="dropdown-item"><a href="#" class="dropdown-item">گروه داخلی</a></li>
+                                        <li class="dropdown-item"><a href="#" class="dropdown-item">گروه کارت های شهری</a></li>
+                                        <li class="dropdown-item"><a href="#" class="dropdown-item">گروه زنگ</a></li>
+                                    </ul>
+        
+                                </li>
+        
+                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">فایل صوتی</a></li>
+                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">آهنگ انتظار</a></li>
+                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">صف انتظار</a></li>
+                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">کد ساز</a></li>
+                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">کدهای غیرمجاز</a></li>
+                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">ساعت های کاری</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" data-toggle="dropdown">
+                                تنظیمات
+                                <i class="jet-dropdown-arrow fa fa-angle-down"></i>
+                            </a>
+                            <ul class="dropdown-menu" id="settings">
+                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">شخصی سازی صفحه</a></li>
+                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">پشتیبانی گیری</a></li>
+                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">قیمت گذاری</a></li>
+                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">برچسب گذاری امتیازات</a>
+                                </li>
+                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">متغیرهای سیستمی</a></li>
+                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">ساعت سیستم</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item nav-end"><a href="#" class="nav-link">درباره ما</a></li>
+                        <li class="nav-item nav-end"><a href="#" class="nav-link">تماس باما</a></li>
+                    </ul>
+                </div>
             </div>
             <div class="navbar-left">
             </div>
-        </nav>
+        </div>
     </header>
     <!--end header-->
     <!--start content-->
@@ -47,12 +197,14 @@
 
     <!--start scripts source -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
     <script src="./bootstrap/js/jquery.min.js"></script>
     <script src="./bootstrap/js/popper.min.js"></script>
     <script src="./bootstrap/js/bootstrap.min.js"></script>
     <script src="./js/jquery.min.js"></script>
     <script src="./js/home.js"></script>
     <script src="./js/owl.carousel.min.js"></script>
+
     <!--end scripts source -->
 </body>
 
