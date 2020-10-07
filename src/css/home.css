@@ -326,6 +326,15 @@ header.container-fluid div.navbar-right div.collapse ul.navbar-nav li.nav-item a
   font-size: 90%;
 }
 
+header.container-fluid div.navbar-right div.collapse ul.navbar-nav li.nav-item a.nav-link svg {
+  width: 20px;
+  height: 20px;
+}
+
+header.container-fluid div.navbar-right div.collapse ul.navbar-nav li.nav-item a.nav-link svg g {
+  font-size: 20px;
+}
+
 @media (max-width: 1140px) {
   header.container-fluid div.navbar-right div.collapse ul.navbar-nav li.nav-item a.nav-link {
     padding: .7rem .5rem;
@@ -333,6 +342,10 @@ header.container-fluid div.navbar-right div.collapse ul.navbar-nav li.nav-item a
 }
 
 header.container-fluid div.navbar-right div.collapse ul.navbar-nav li.nav-item a.nav-link i.fa-home {
+  font-size: 1.3rem;
+}
+
+header.container-fluid div.navbar-right div.collapse ul.navbar-nav li.nav-item a.nav-link i.ti-palette {
   font-size: 1.3rem;
 }
 
@@ -577,5 +590,69 @@ header.container-fluid div.navbar-left .navbar-nav .nav-item .nav-link .material
   header.container-fluid div.navbar-left .navbar-nav .nav-item .nav-link .material-icons {
     display: none;
   }
+}
+
+section.main-content.container div.section-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+}
+
+section.main-content.container div.section-title h3.h3 {
+  font-size: 2.7rem;
+  text-shadow: 0px 4px 0px rgba(0, 0, 0, 0.2);
+}
+
+section.main-content.container div.section-title h4.text-muted.lead {
+  font-size: 85%;
+}
+
+section.main-content.container div.card {
+  width: 100%;
+  height: 50%;
+  margin: .2rem 0 1rem;
+  box-shadow: 8px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+section.main-content.container div.card div.img-gallery.owl-carousel.owl-theme {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+section.main-content.container div.card div.img-gallery.owl-carousel.owl-theme .owl-theme .owl-dots {
+  margin-top: 60px;
+  text-align: center;
+}
+
+section.main-content.container div.card div.img-gallery.owl-carousel.owl-theme .owl-theme .owl-dots .owl-dot {
+  background: #e7d9eb;
+  width: 35px;
+  height: 8px;
+  border-radius: 10px;
+  transition: all 0.3s ease-in;
+  margin: 0 7px;
+  outline: none;
+}
+
+section.main-content.container div.card div.img-gallery.owl-carousel.owl-theme .owl-theme .owl-dots .owl-dot:hover {
+  background: #ff487e;
+}
+
+section.main-content.container div.card div.img-gallery.owl-carousel.owl-theme .owl-theme .owl-dots .owl-dot.active {
+  box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.07);
+  background: #ff487e;
+}
+
+section.main-content.container div.card div.img-gallery.owl-carousel.owl-theme .img-gallery .owl-item {
+  box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.07);
+  transform: scale(0.8);
+  transition: all 0.3s ease-in;
+}
+
+section.main-content.container div.card div.img-gallery.owl-carousel.owl-theme .img-gallery .owl-item.center {
+  transform: scale(1);
 }
 /*# sourceMappingURL=home.css.map */

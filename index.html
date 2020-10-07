@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Online Training</title>
-    <link rel="icon" href="./img/logo7.png">
+    <link rel="icon" href="./img/icons-learning.png">
     <link rel="stylesheet" href="./src/css/reset.css" />
     <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="./src/css/home.css" />
@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="./src/css/themify-icons.css">
     <link rel="stylesheet" href="./src/css/owl.carousel.min.css">
+    <!-- <link rel="stylesheet" href="./src/css/owlcarousel/owl.theme.default.min.css"> -->
 </head>
 
 <body>
@@ -21,6 +22,7 @@
     <header class="container-fluid px-0">
         <div class="register-login">
             <img src="./img/bg30-1.png" alt="Logo" class="logo ml-3 mr-5">
+            <!-- <img src="https://img.icons8.com/clouds/100/000000/student-male.png" class="logo ml-3 mr-5" /> -->
             <div class="search-box input-group mb-2 mr-sm-2">
                 <button class="btn input-group-prepend">
                     <div class="input-group-text"><i class="ti-search"></i></div>
@@ -31,101 +33,192 @@
                 <button class="btn login" type="button">ورود / ثبت نام</button>
             </div>
         </div>
+
         <div class="navbar navbar-expand-lg mainmenu">
             <div class="navbar-right">
-                <div class="hamburger-menu navbar-toggler" type="button" data-target="#coll-navbar" data-toggle="collapse">
+                <div class="hamburger-menu navbar-toggler" type="button" data-target="#coll-navbar"
+                    data-toggle="collapse">
                     <span class="menu navbar-toggler-icon">
                         <div class="menu-line menu-line-1"></div>
                         <div class="menu-line menu-line-2"></div>
                         <div class="menu-line menu-line-3"></div>
                     </span>
                 </div>
-        
+
                 <div class="collapse navbar-collapse" id="coll-navbar">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link"><i class='fas fa-home'></i></a>
+                            <a class="nav-link">
+                                <i class='fas fa-home'></i>
+                                صفحه اصلی
+                            </a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link" data-toggle="dropdown" id="navbarDropdown">
-                                گزارش ها
+                                <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="18px"
+                                    height="18px">
+                                    <path d="M0 0h24v24H0V0z" fill="none" />
+                                    <path
+                                        d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z" />
+                                </svg> -->
+                                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="32" height="32"
+                                    viewBox="0 0 172 172" style=" fill:#000000;">
+                                    <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1"
+                                        stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
+                                        stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
+                                        font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                                        <path d="M0,172v-172h172v172z" fill="none"></path>
+                                        <g fill="#ffffff">
+                                            <path
+                                                d="M80.625,10.75c-38.50683,0 -69.875,31.36817 -69.875,69.875c0,38.50683 31.36817,69.875 69.875,69.875c38.50683,0 69.875,-31.36817 69.875,-69.875c0,-38.50683 -31.36817,-69.875 -69.875,-69.875zM75.58594,21.75196c-0.20996,0.29394 -0.41992,0.5459 -0.5459,0.88183c-0.71386,3.48535 2.0996,2.77148 4.91308,3.48535c0,0 0.67188,5.58496 0.67188,6.29882c0.71386,3.48535 -1.42773,5.58496 -1.42773,9.07031c0,2.09961 0.04199,5.58496 1.42773,6.97071h0.67188c0.71386,0 1.42774,-0.67187 2.81348,-1.34375c2.0996,-1.42774 4.19922,-3.52734 6.29882,-4.91309c2.09961,-1.38574 4.19922,-3.48534 5.58497,-4.91308c2.0996,-1.38574 3.48534,-4.19922 4.19922,-6.29882c0.58789,-1.17578 2.14159,-3.40138 2.14159,-5.33301c5.83692,2.30957 11.25391,5.45898 15.99903,9.40625c-0.20997,0.08398 -0.41993,0.04199 -0.67187,0.12598c-2.09961,0.71386 -3.48535,3.52734 -4.91309,4.91308l-4.19922,6.25683c-0.67187,0.71386 -1.38574,2.09961 -0.67187,2.81348c0,0.71386 0.67188,0.71386 1.38575,0.71386c1.38574,0.71386 2.0996,0.67188 3.48534,1.38574c0.71388,0 1.42774,0.71388 0.71388,1.38575c0,0 0,0.71386 -0.71388,0.71386c-3.48534,3.48535 -6.9707,6.29882 -10.45605,9.78418c-0.71386,0.71386 -1.42773,2.09961 -1.42773,2.77149c0,0.71386 0.71386,0.71386 0.71386,1.42773c0,0.71386 -0.67187,0.67188 -1.38574,1.38574c-1.38575,0.71388 -2.81348,1.38575 -3.52734,2.09961c-0.67187,1.38574 0.04199,3.48535 -0.67187,4.91308c-0.71388,3.48535 -2.81348,6.25683 -4.19922,9.74219c-1.38575,2.09961 -2.09961,4.24121 -3.48535,6.29883c0,2.81347 -0.71386,4.91308 0.71386,7.01269c3.48535,4.87109 9.78418,2.09961 14.65527,4.15723c1.38575,0.71386 2.81348,0.71386 3.48535,2.09961c2.09961,2.0996 2.09961,5.62695 2.81348,7.68456c0.71386,2.81348 1.38574,5.62696 2.77148,8.39844c0.54591,2.7295 1.46973,5.20703 2.18359,7.60059c-9.6582,6.88672 -21.5,11.00195 -34.30761,11.00195c-5.50098,0 -10.79199,-0.79785 -15.83105,-2.18359c0.96582,-1.25976 1.84766,-2.72949 1.84766,-3.14942c2.0996,-2.05761 3.52734,-4.87109 5.58496,-6.25683c1.42774,-0.71386 2.81348,-1.42773 4.19922,-2.81348c1.38574,-1.38574 2.09961,-4.19922 2.77149,-6.29882c0.71386,-1.38574 1.42773,-4.19922 0.75585,-6.29883c0,-1.38574 -0.71386,-2.05761 -2.0996,-2.77148c-4.19922,-1.38574 -8.39844,-1.38574 -11.92578,-4.91308c-0.67187,-1.38575 -0.67187,-2.77149 -1.34375,-4.19922c-1.42774,-1.38575 -4.91309,-2.05763 -7.0127,-2.77149h-13.9834c-2.09961,-0.71386 -3.48535,-3.48535 -4.87109,-5.58496c0,-0.71386 0,-2.09961 -1.42774,-2.09961c-1.38574,-0.71386 -2.77148,0.71388 -4.19922,0c-0.67187,-0.71386 -0.67187,-1.38574 -0.67187,-2.0996c0,-2.09961 1.38574,-4.19922 2.77149,-5.58496c2.0996,-1.38575 4.19922,0.67188 6.29882,0.67188c0.71386,0 0.71386,0 1.42774,0.71386c2.05761,0.71386 2.77148,3.52734 2.77148,5.58496v1.42774c0,0.67188 0.71386,0.67188 1.42774,0.67188c0.67188,-3.48535 0.67188,-6.97071 1.34375,-10.49805c0,-4.15723 4.19922,-8.35645 7.72656,-9.74219c1.38574,-0.71386 2.0996,0.67188 3.48534,0c4.19922,-1.42773 14.65528,-5.58496 12.55567,-11.16992c-1.38574,-4.91309 -5.58496,-9.82618 -11.16992,-9.11231c-1.38575,0.71388 -2.09961,1.38575 -3.48535,2.09961c-2.09961,1.38574 -6.29883,5.58496 -8.39844,5.58496c-3.48535,-0.71386 -3.48535,-5.58496 -2.81348,-7.68457c0.71386,-2.81347 7.0127,-11.88378 11.21192,-10.45605l2.81348,2.77149c1.38574,0.71386 3.48534,0.67188 5.54297,0.67188c0.71386,0 1.42773,0.04199 2.0996,-0.67187c0.71386,-0.71388 0.71386,-0.67187 0.71386,-1.38575c0,-2.0996 -2.0996,-4.19922 -3.48534,-5.58496c-1.38575,-1.42773 -3.48535,-2.81348 -5.58497,-3.52734c-4.53516,-1.34375 -10.75,-0.50391 -16.125,1.51172c8.90234,-7.22266 19.94629,-11.84179 32.04004,-12.8496zM21.75196,85.41211c2.26757,3.48534 5.71094,6.84472 9.23828,9.19628c2.81347,2.09961 8.39844,2.09961 11.21191,5.58497c2.09961,2.81347 1.38575,6.29882 1.38575,9.78418c0,4.19922 2.81347,7.68457 4.19922,11.16992c0.71386,2.09961 1.38574,4.91309 2.0996,7.0127c0,0.37793 0.20996,1.80567 0.41993,3.19141c-15.95703,-9.53223 -27.00098,-26.37109 -28.55469,-45.93945z">
+                                            </path>
+                                        </g>
+                                    </g>
+                                </svg>
+                                زبان های خارجی
                                 <i class="jet-dropdown-arrow fa fa-angle-down"></i>
                             </a>
                             <ul class="dropdown-menu" id="reports">
-                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">گزارش اصلی</a></li>
-                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">نظرسنجی</a></li>
-                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">انتقادات و پیشنهادات</a>
+                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">آموزش زبان
+                                        انگلیسی</a>
                                 </li>
-                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">تیکتینگ</a></li>
-                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">پست صوتی</a></li>
-                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">صدور قبض</a></li>
+                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">آموزش زبان
+                                        آلمانی</a></li>
+                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">آموزش زبان
+                                        فرانسوی</a>
+                                </li>
+                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">آموزش زبان
+                                        ترکی</a></li>
+                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">آموزش زبان
+                                        اسپانیایی</a></li>
+                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">آموزش زبان
+                                        فارسی</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link" data-toggle="dropdown">
-                                مانیتورینگ
+                                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24"
+                                    viewBox="0 0 172 172" style=" fill:#000000;">
+                                    <g transform="">
+                                        <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1"
+                                            stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
+                                            stroke-dasharray="" stroke-dashoffset="0" font-family="none"
+                                            font-weight="none" font-size="none" text-anchor="none"
+                                            style="mix-blend-mode: normal">
+                                            <path d="M0,172v-172h172v172z" fill="none"></path>
+                                            <path d="" fill="none"></path>
+                                            <path d="" fill="none"></path>
+                                            <path d="" fill="none"></path>
+                                            <path d="" fill="none"></path>
+                                            <path d="" fill="none"></path>
+                                            <path d="" fill="none"></path>
+                                            <g fill="#ffffff">
+                                                <path
+                                                    d="M90.47469,0c-36.98,0 -80.15469,21.35219 -80.15469,81.52531c0,43.69875 33.72813,90.47469 83.93063,90.47469c0.02687,0 0.72562,0 0.7525,0c18.86625,-0.34937 39.15687,-12.53719 39.15687,-38.52531c0,-4.97187 -1.84094,-9.28531 -3.48031,-13.08812c-0.43,-0.99438 -0.84656,-1.97531 -1.23625,-2.96969c-3.70875,-9.3525 0.38969,-12.77906 10.01094,-19.63219c10.92469,-7.76687 25.86719,-18.40937 25.66562,-46.53406c0,-16.71625 -18.24812,-51.25063 -74.64531,-51.25063zM91.16,20.64c6.65156,0 12.04,6.93375 12.04,15.48c0,8.54625 -5.38844,15.48 -12.04,15.48c-6.65156,0 -12.04,-6.93375 -12.04,-15.48c0,-8.54625 5.38844,-15.48 12.04,-15.48zM49.88,113.52c-6.65156,0 -12.04,-6.93375 -12.04,-15.48c0,-8.54625 5.38844,-15.48 12.04,-15.48c6.65156,0 12.04,6.93375 12.04,15.48c0,8.54625 -5.38844,15.48 -12.04,15.48zM53.32,68.8c-6.65156,0 -12.04,-6.93375 -12.04,-15.48c0,-8.54625 5.38844,-15.48 12.04,-15.48c6.65156,0 12.04,6.93375 12.04,15.48c0,8.54625 -5.38844,15.48 -12.04,15.48zM92.88,147.92c-7.71312,0 -13.76,-6.04687 -13.76,-13.76c0,-7.71312 6.04688,-13.76 13.76,-13.76c7.71313,0 13.76,6.04688 13.76,13.76c0,7.71313 -6.04687,13.76 -13.76,13.76zM129,68.8c-6.65156,0 -12.04,-6.93375 -12.04,-15.48c0,-8.54625 5.38844,-15.48 12.04,-15.48c6.65156,0 12.04,6.93375 12.04,15.48c0,8.54625 -5.38844,15.48 -12.04,15.48z">
+                                                </path>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg>
+                                آموزش طراحی
                                 <i class="jet-dropdown-arrow fa fa-angle-down"></i>
                             </a>
                             <ul class="dropdown-menu" id="monitor">
-                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">وضعیت کانال</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link" data-toggle="dropdown">
-                                نمودارها
-                                <i class="jet-dropdown-arrow fa fa-angle-down"></i>
-                            </a>
-                            <ul class="dropdown-menu" id="charts">
-                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">عملکرد داخلی ها</a></li>
-                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">مقایسه داخلی ها</a></li>
-                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">ساعت کاری</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link" data-toggle="dropdown">
-                                کاربران
-                                <i class="jet-dropdown-arrow fa fa-angle-down"></i>
-                            </a>
-                            <ul class="dropdown-menu" id="users">
-                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">ثبت کاربر جدید</a></li>
-                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">لیست کاربران</a></li>
-                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">گروه کاربران</a></li>
-                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">افزودن سطح دسترسی</a>
+                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">آموزش طراحی
+                                        سایت</a></li>
+                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">آموزش فوتوشاپ</a>
+                                </li>
+                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">آموزش طراحی
+                                        گرافیک</a>
+                                </li>
+                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">آموزش موشن
+                                        گرافیک</a>
+                                </li>
+                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">آموزش طراحی سه
+                                        بعدی</a>
                                 </li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link" data-toggle="dropdown">
-                                دفتر تلفن
+                                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50"
+                                    viewBox="0 0 172 172" style=" fill:#000000;">
+                                    <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1"
+                                        stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
+                                        stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
+                                        font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                                        <path d="M0,172v-172h172v172z" fill="none"></path>
+                                        <g fill="#ffffff">
+                                            <path
+                                                d="M68.8,6.88c-5.65719,0 -10.32,4.66281 -10.32,10.32v6.88h-41.56219c-5.53625,0 -10.03781,4.46125 -10.03781,9.94375v51.97625c0,1.89469 1.41094,3.44 3.15781,3.44h104.78562c6.54406,-4.34031 14.36469,-6.88 22.77656,-6.88c10.57531,0 20.21,4.03125 27.52,10.58875v-59.125c0,-5.4825 -4.50156,-9.94375 -10.03781,-9.94375h-41.56219v-6.88c0,-5.65719 -4.66281,-10.32 -10.32,-10.32zM68.8,13.76h34.4c1.935,0 3.44,1.505 3.44,3.44v6.88h-41.28v-6.88c0,-1.935 1.505,-3.44 3.44,-3.44zM86,68.8c3.80281,0 6.88,3.07719 6.88,6.88c0,3.80281 -3.07719,6.88 -6.88,6.88c-3.80281,0 -6.88,-3.07719 -6.88,-6.88c0,-3.80281 3.07719,-6.88 6.88,-6.88zM137.6,89.44c-18.96031,0 -34.4,15.43969 -34.4,34.4c0,8.25063 2.92938,15.81594 7.79375,21.75531l-20.54594,20.5325l4.86437,4.86437l20.5325,-20.54594c5.93938,4.86438 13.50469,7.79375 21.75531,7.79375c18.96031,0 34.4,-15.43969 34.4,-34.4c0,-18.96031 -15.43969,-34.4 -34.4,-34.4zM6.88,95.74219v42.23406c0,5.4825 4.50156,9.94375 10.03781,9.94375h82.00906l3.13094,-3.1175c-3.72219,-6.32906 -5.73781,-13.58531 -5.73781,-20.9625c0,-10.57531 4.03125,-20.21 10.58875,-27.52h-96.87094c-1.10188,0 -2.16344,-0.22844 -3.15781,-0.57781zM137.6,96.32c15.23813,0 27.52,12.28188 27.52,27.52c0,15.23813 -12.28187,27.52 -27.52,27.52c-15.23812,0 -27.52,-12.28187 -27.52,-27.52c0,-15.23812 12.28188,-27.52 27.52,-27.52z">
+                                            </path>
+                                        </g>
+                                    </g>
+                                </svg>
+                                آموزش کسب و کار
                                 <i class="jet-dropdown-arrow fa fa-angle-down"></i>
                             </a>
-        
-                            <ul class="dropdown-menu" id="tel">
-                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">دفتر تلفن</a></li>
-                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">شماره های ویژه</a></li>
+                            <ul class="dropdown-menu" id="charts">
+                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">آموزش زبان برنامه
+                                        نویسی</a></li>
+                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">آموزش ساخت
+                                        اپلیکیشن</a>
+                                </li>
+                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">آموزش سئوی
+                                        سایت</a>
+                                </li>
+                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">آموزش شبکه</a>
+                                </li>
+                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">آموزش امنیت
+                                        شبکه</a>
+                                </li>
+                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">آموزش مدیریت
+                                        پروژه</a>
+                                </li>
+                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">آموزش
+                                        کامپیوتر</a>
+                                </li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link" data-toggle="dropdown">
-                                نمابر
+                                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24"
+                                    viewBox="0 0 172 172" style=" fill:#000000;">
+                                    <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1"
+                                        stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
+                                        stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
+                                        font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                                        <path d="M0,172v-172h172v172z" fill="none"></path>
+                                        <g fill="#ffffff">
+                                            <path
+                                                d="M43,14.33333c-7.91917,0 -14.33333,6.41417 -14.33333,14.33333v107.5c0,11.78895 9.71105,21.5 21.5,21.5h93.16667v-14.33333h-93.16667c-4.04938,0 -7.16667,-3.11729 -7.16667,-7.16667c0,-4.04938 3.11728,-7.16667 7.16667,-7.16667h93.16667v-7.16667v-7.16667v-100.33333h-28.66667v71.66667l-21.5,-14.33333l-21.5,14.33333v-71.66667z">
+                                            </path>
+                                        </g>
+                                    </g>
+                                </svg>
+                                آموزش های ویژه
                                 <i class="jet-dropdown-arrow fa fa-angle-down"></i>
                             </a>
-                            <ul class="dropdown-menu" id="namabar">
-                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">ارسال نمابر</a></li>
-                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">نمابرهای دریافتی</a></li>
-                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">نمابرهای ارسالی</a></li>
-                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">بایگانی</a></li>
-                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">داخلی نمابر</a></li>
+                            <ul class="dropdown-menu" id="users">
+                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">آموزش
+                                        آهنگسازی</a></li>
+                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">آموزش نرم افزار
+                                        بلندر</a></li>
+                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">آموزش
+                                        الکترونیک</a></li>
+                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">آموزش میکس
+                                        فیلم</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item dropdown" id="nav-item">
+                        <!-- <li class="nav-item dropdown" id="nav-item">
                             <a class="nav-link" data-toggle="dropdown" id="navbarDropdown">
                                 سیستم تلفنی
                                 <i class="jet-dropdown-arrow fa fa-angle-down"></i>
                             </a>
                             <ul class="dropdown-menu" id="sub-menu-0">
-                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">گزارش وضعیت</a></li>
-        
+                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">گزارش وضعیت</a>
+                                </li>
+
                                 <li class="list-item dropdown" id="sub2-1">
                                     <a href="#" class="dropdown-item" id="navbarDropdown" data-toggle="dropdown">
                                         شماره های داخلی
@@ -135,11 +228,13 @@
                                         <li class="dropdown-item"><a href="#" class="dropdown-item">SIP</a></li>
                                         <li class="dropdown-item"><a href="#" class="dropdown-item">IAX</a></li>
                                     </ul>
-        
+
                                 </li>
-        
-                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">تماس های ورودی</a></li>
-                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">تماس های خروجی</a></li>
+
+                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">تماس های
+                                        ورودی</a></li>
+                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">تماس های
+                                        خروجی</a></li>
                                 <li class="list-item" id="list-item"><a href="#" class="dropdown-item">IVR</a></li>
                                 <li class="list-item" id="list-item"><a href="#" class="dropdown-item">Trunk</a></li>
                                 <li class="list-item dropdown" id="sub2-2">
@@ -149,37 +244,62 @@
                                     </a>
                                     <ul class="dropdown-menu" id="sub-menu-1">
                                         <li class="dropdown-item"><a href="#" class="dropdown-item">گروه داخلی</a></li>
-                                        <li class="dropdown-item"><a href="#" class="dropdown-item">گروه کارت های شهری</a></li>
+                                        <li class="dropdown-item"><a href="#" class="dropdown-item">گروه کارت های
+                                                شهری</a></li>
                                         <li class="dropdown-item"><a href="#" class="dropdown-item">گروه زنگ</a></li>
                                     </ul>
-        
+
                                 </li>
-        
-                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">فایل صوتی</a></li>
-                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">آهنگ انتظار</a></li>
-                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">صف انتظار</a></li>
+
+                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">فایل صوتی</a>
+                                </li>
+                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">آهنگ انتظار</a>
+                                </li>
+                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">صف انتظار</a>
+                                </li>
                                 <li class="list-item" id="list-item"><a href="#" class="dropdown-item">کد ساز</a></li>
-                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">کدهای غیرمجاز</a></li>
-                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">ساعت های کاری</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link" data-toggle="dropdown">
-                                تنظیمات
-                                <i class="jet-dropdown-arrow fa fa-angle-down"></i>
-                            </a>
-                            <ul class="dropdown-menu" id="settings">
-                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">شخصی سازی صفحه</a></li>
-                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">پشتیبانی گیری</a></li>
-                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">قیمت گذاری</a></li>
-                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">برچسب گذاری امتیازات</a>
+                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">کدهای غیرمجاز</a>
                                 </li>
-                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">متغیرهای سیستمی</a></li>
-                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">ساعت سیستم</a></li>
+                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">ساعت های کاری</a>
+                                </li>
                             </ul>
+                        </li> -->
+                        <li class="nav-item nav-end"><a href="#" class="nav-link">
+                                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="64" height="64"
+                                    viewBox="0 0 172 172" style=" fill:#000000;">
+                                    <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1"
+                                        stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
+                                        stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
+                                        font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                                        <path d="M0,172v-172h172v172z" fill="none"></path>
+                                        <g fill="#ffffff">
+                                            <path
+                                                d="M35.18945,28.66667c-7.525,0 -13.68945,6.16445 -13.68945,13.68945v58.6211c0,7.525 6.16445,13.68945 13.68945,13.68945h101.6211c7.525,0 13.68945,-6.16445 13.68945,-13.68945v-58.6211c0,-7.525 -6.16445,-13.68945 -13.68945,-13.68945zM50.16667,50.16667h71.66667v14.33333h-71.66667zM50.16667,78.83333h50.16667v14.33333h-50.16667zM14.33333,129v14.33333h143.33333v-14.33333z">
+                                            </path>
+                                        </g>
+                                    </g>
+                                </svg>
+                                وبلاگ
+
+                            </a></li>
+                        <li class="nav-item nav-end"><a href="#" class="nav-link">
+                                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="26" height="26"
+                                    viewBox="0 0 172 172" style=" fill:#000000;">
+                                    <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1"
+                                        stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
+                                        stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
+                                        font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                                        <path d="M0,172v-172h172v172z" fill="none"></path>
+                                        <g fill="#ffffff">
+                                            <path
+                                                d="M19.84615,0c-10.95673,0 -19.84615,8.88942 -19.84615,19.84615v112.46154c0,10.95673 8.88942,19.84615 19.84615,19.84615h64.70673c-1.73137,-4.16046 -2.92007,-8.60517 -3.51442,-13.23077h-61.19231c-3.64363,0 -6.61538,-2.97176 -6.61538,-6.61538v-112.46154c0,-3.64363 2.97176,-6.61538 6.61538,-6.61538h119.07692c3.64363,0 6.61538,2.97176 6.61538,6.61538v62.63942c4.70313,1.24038 9.14784,3.15265 13.23077,5.58173v-68.22115c0,-10.95673 -8.88942,-19.84615 -19.84615,-19.84615zM33.07692,33.07692c-3.64363,0 -6.61538,2.97176 -6.61538,6.61538v6.61538c0,3.64363 2.97176,6.61538 6.61538,6.61538h6.61538c3.64363,0 6.61538,-2.97176 6.61538,-6.61538v-6.61538c0,-3.64363 -2.97176,-6.61538 -6.61538,-6.61538zM66.15385,33.49038c-3.64363,0 -6.61538,2.97176 -6.61538,6.61538v6.61538c0,3.64363 2.97176,6.61538 6.61538,6.61538h59.53846c3.64363,0 6.61538,-2.97176 6.61538,-6.61538v-6.61538c0,-3.64363 -2.97176,-6.61538 -6.61538,-6.61538zM33.07692,66.56731c-3.64363,0 -6.61538,2.97176 -6.61538,6.61538v6.61538c0,3.64363 2.97176,6.61538 6.61538,6.61538h6.61538c3.64363,0 6.61538,-2.97176 6.61538,-6.61538v-6.61538c0,-3.64363 -2.97176,-6.61538 -6.61538,-6.61538zM66.15385,66.56731c-3.64363,0 -6.61538,2.97176 -6.61538,6.61538v6.61538c0,3.64363 2.97176,6.61538 6.61538,6.61538h42.58654c7.02885,-3.64363 14.88462,-5.76262 23.36058,-5.78846c0.02584,-0.28426 0.20673,-0.51683 0.20673,-0.82692v-6.61538c0,-3.64363 -2.97176,-6.61538 -6.61538,-6.61538zM132.30769,93.85577c-21.24158,0 -38.45192,17.21034 -38.45192,38.45192c0,21.24159 17.21034,38.45192 38.45192,38.45192c21.24159,0 38.45192,-17.21033 38.45192,-38.45192c0,-21.24158 -17.21033,-38.45192 -38.45192,-38.45192zM33.07692,99.64423c-3.64363,0 -6.61538,2.97176 -6.61538,6.61538v6.61538c0,3.64363 2.97176,6.61538 6.61538,6.61538h6.61538c3.64363,0 6.61538,-2.97176 6.61538,-6.61538v-6.61538c0,-3.64363 -2.97176,-6.61538 -6.61538,-6.61538zM66.15385,99.64423c-3.64363,0 -6.61538,2.97176 -6.61538,6.61538v6.61538c0,3.64363 2.97176,6.61538 6.61538,6.61538h16.125c1.88642,-7.36478 5.24579,-14.13522 9.92308,-19.84615zM125.69231,112.46154h13.23077v13.23077h13.23077v13.23077h-13.23077v13.23077h-13.23077v-13.23077h-13.23077v-13.23077h13.23077z">
+                                            </path>
+                                        </g>
+                                    </g>
+                                </svg>
+                                سبک زندگی
+                            </a>
                         </li>
-                        <li class="nav-item nav-end"><a href="#" class="nav-link">درباره ما</a></li>
-                        <li class="nav-item nav-end"><a href="#" class="nav-link">تماس باما</a></li>
                     </ul>
                 </div>
             </div>
@@ -189,7 +309,23 @@
     </header>
     <!--end header-->
     <!--start content-->
+    <section class="main-content container px-0 ">
+        <div class="section-title ">
+            <h3 class="h3">آموزش آنلاین</h3>
+            <h4 class="text-muted lead">Online Education</h4>
+        </div>
 
+        <div class="card">
+            <div class="img-gallery owl-carousel owl-theme">
+                <img src="img/slide-4.png" alt="screen3" class="owl-lazy">
+                <img src="img/logo33.png" alt="screen1" class="owl-lazy">
+                <img src="img/slide-1.png" alt="screen2" class="owl-lazy">
+                <img src="img/slide-3.png" alt="screen3" class="owl-lazy">
+                <img src="img/slide-5.jpg" alt="screen3" class="owl-lazy">
+            </div>
+        </div>
+
+    </section>
     <!--end content-->
     <!--start footer-->
 
@@ -198,10 +334,10 @@
     <!--start scripts source -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <script src="./js/jquery.min.js"></script>
     <script src="./bootstrap/js/jquery.min.js"></script>
     <script src="./bootstrap/js/popper.min.js"></script>
     <script src="./bootstrap/js/bootstrap.min.js"></script>
-    <script src="./js/jquery.min.js"></script>
     <script src="./js/home.js"></script>
     <script src="./js/owl.carousel.min.js"></script>
 

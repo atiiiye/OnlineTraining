@@ -45,19 +45,6 @@ $(document).ready(function () {
     nanBarTogglerIcon.classList.toggle("change");
   });
 
-  sub22.addEventListener("click", function () {
-    sub21.classList.remove("show");
-  });
-
-  sub21.addEventListener("click", function () {
-    sub22.classList.remove("show");
-  });
-
-  navItemDropdown.addEventListener("click", function () {
-    sub21.classList.remove("show");
-    sub22.classList.remove("show");
-  });
-
   navItemDropdowns.forEach((navItem) =>
     navItem.addEventListener("mouseover", function () {
       navItem.classList.add("show");
@@ -74,19 +61,28 @@ $(document).ready(function () {
     })
   );
 
-  sub22.addEventListener("mouseover", function () {
-    this.classList.add("show");
+  let gallery = document.querySelector('div.img-gallery.owl-carousel');
+  // if (gallery.length && $.fn.owlCarousel) {
+  console.log(gallery)
+  $('.owl-carousel').owlCarousel({
+    rtl: true,
+    nav: false,
+    items: 3,
+    dots: true,
+    center: true,
+    autoplay: true,
+    autoplayTimeout: 3000,
+    loop: true,
+    lazyLoad: true,
+    responsive: {
+      0: {
+        items: 1
+      },
+      768: {
+        items: 3
+      }
+    }
   });
+  // }
 
-  sub22.addEventListener("mouseleave", function () {
-    this.classList.remove("show");
-  });
-
-  sub21.addEventListener("mouseover", function () {
-    this.classList.add("show");
-  });
-
-  sub21.addEventListener("mouseleave", function () {
-    this.classList.remove("show");
-  });
 });
