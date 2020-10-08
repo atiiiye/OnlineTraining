@@ -1,0 +1,1129 @@
+body {
+  text-align: right;
+  font-family: "Samim";
+  font-size: 100%;
+  direction: rtl;
+}
+
+@media (max-width: 991px) {
+  header.container-fluid {
+    width: 100%;
+    height: 100%;
+  }
+  header.container-fluid div.register-login {
+    width: 100%;
+    height: 70px;
+  }
+  header.container-fluid div.register-login img.logo {
+    width: 55px;
+    height: 55px;
+  }
+  header.container-fluid div.register-login div.search-box {
+    width: 50%;
+  }
+  header.container-fluid div.register-login div.search-box input.search {
+    width: 80%;
+    height: 25px;
+    font-size: 95%;
+  }
+  header.container-fluid div.register-login div.search-box input.search:focus {
+    box-shadow: 0 0 0 0.2rem rgba(250, 246, 251, 0.5);
+    border-color: rgba(224, 224, 224, 0.7);
+  }
+  header.container-fluid div.register-login div.search-box button.input-group-prepend {
+    width: 10%;
+    margin: 0;
+    padding-right: 0;
+    padding-left: 0;
+  }
+  header.container-fluid div.register-login div.search-box button.input-group-prepend div.input-group-text {
+    padding: 0;
+    width: 100%;
+  }
+  header.container-fluid div.register-login div.search-box button.input-group-prepend div.input-group-text i {
+    font-size: 23px;
+  }
+  header.container-fluid div.register-login div.search-box input.search {
+    border-left: 0;
+  }
+  header.container-fluid div.register-login div.buttons {
+    margin: 1.5rem;
+  }
+  header.container-fluid div.register-login div.buttons button.btn.login {
+    border-radius: 28px;
+    padding: .3rem 1.2rem;
+  }
+  section.main-content.container {
+    width: 100%;
+  }
+  section.main-content.container div.section-title {
+    margin: 1rem;
+  }
+  section.main-content.container div.section-title h3.h3 {
+    font-size: 2.5rem;
+  }
+  section.main-content.container div.section-title h4.text-muted.lead {
+    font-size: 85%;
+  }
+  section.main-content.container div.card {
+    width: 100%;
+    height: 370px;
+    margin: .2rem 0 1rem;
+    padding: 0rem;
+  }
+  section.main-content.container div.card div.img-gallery.owl-carousel.owl-theme.owl-rtl.owl-loaded.owl-drag {
+    width: 100%;
+    height: 100%;
+  }
+  section.main-content.container div.card div.img-gallery.owl-carousel.owl-theme.owl-rtl.owl-loaded.owl-drag div.owl-stage-outer {
+    width: 100%;
+  }
+  section.main-content.container div.card div.img-gallery.owl-carousel.owl-theme.owl-rtl.owl-loaded.owl-drag div.owl-stage-outer div.owl-stage {
+    width: 50%;
+  }
+  section.main-content.container div.card div.img-gallery.owl-carousel.owl-theme.owl-rtl.owl-loaded.owl-drag div.owl-stage-outer div.owl-stage div.owl-item {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  section.main-content.container div.card div.img-gallery.owl-carousel.owl-theme.owl-rtl.owl-loaded.owl-drag div.owl-stage-outer div.owl-stage div.owl-item img.image-slide {
+    width: 100%;
+    height: 100%;
+  }
+  section.main-content.container div.card div.img-gallery.owl-carousel.owl-theme.owl-rtl.owl-loaded.owl-drag div.owl-stage-outer div.owl-stage div.owl-item.center {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  section.main-content.container div.card div.img-gallery.owl-carousel.owl-theme.owl-rtl.owl-loaded.owl-drag div.owl-dots {
+    width: 100%;
+    height: 10%;
+    margin-top: 0;
+    position: absolute;
+    bottom: 0rem;
+  }
+  section.main-content.container div.card div.img-gallery.owl-carousel.owl-theme.owl-rtl.owl-loaded.owl-drag div.owl-dots button.owl-dot {
+    width: 35px;
+    height: 8px;
+    border-radius: 10px;
+    transition: all 0.3s ease-in;
+    margin: 0 8px;
+    outline: none;
+  }
+  section.slide-video.container-fluid {
+    width: 100%;
+    height: max-content;
+    margin-top: 2rem;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme {
+    width: 100%;
+    height: 100%;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.owl-stage-outer {
+    width: 100%;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.owl-stage-outer div.owl-stage {
+    width: 50%;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.owl-stage-outer div.owl-stage div.owl-item {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.owl-stage-outer div.owl-stage div.owl-item img.image-slide {
+    width: 100%;
+    height: 100%;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.owl-nav button.owl-prev {
+    position: absolute;
+    top: 50%;
+    left: 0;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.owl-nav button.owl-prev i.fa.fa-angle-left {
+    font-size: 28px;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.owl-nav button.owl-next {
+    position: absolute;
+    top: 50%;
+    right: 0;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.owl-nav button.owl-next i.fa.fa-angle-right {
+    font-size: 28px;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide {
+    width: 100%;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide span.text-video {
+    width: 40%;
+    margin-left: 5%;
+    font-size: 95%;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer video {
+    width: 100%;
+    height: auto;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer div.myplayer__controls {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer div.myplayer__controls div.controls__progressbar {
+    height: 6px;
+    width: 100%;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer div.myplayer__controls div.controls__progressbar input.controls__progressbar-current {
+    height: 6px;
+    margin: 0;
+    position: absolute;
+    width: 100%;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer div.myplayer__controls div.controls__progressbar input.controls__progressbar-current::-webkit-slider-thumb {
+    height: 13px;
+    width: 13px;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer div.myplayer__controls div.controls__progressbar input.controls__progressbar-current::-moz-range-thumb {
+    height: 13px;
+    width: 13px;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer div.myplayer__controls div.controls__btns {
+    margin: 10px 15px;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer div.myplayer__controls div.controls__btns div.left .btns:not(:first-child) {
+    margin-left: 20px;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer div.myplayer__controls div.controls__btns div.right .btns:not(:last-child) {
+    margin-right: 20px;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer div.myplayer__controls div.controls__btns div.left {
+    display: flex;
+    align-items: center;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer div.myplayer__controls div.controls__btns div.left div.btns.play {
+    font-size: 1.2em;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer div.myplayer__controls div.controls__btns div.left div.timer {
+    margin-left: 20px;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer div.myplayer__controls div.controls__btns div.right div.btns.volume {
+    font-size: 1.2em;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer div.myplayer__controls div.controls__btns div.right div.btns.volume div.volume__progress {
+    position: absolute;
+    top: -50px;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer div.myplayer__controls div.controls__btns div.right div.btns.volume div.volume__progress input[type=range] {
+    display: flex;
+    -webkit-appearance: none;
+    -moz-apperance: none;
+    border-radius: 6px;
+    height: 6px;
+    width: 77px;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer div.myplayer__controls div.controls__btns div.right div.btns.volume div.volume__progress input[type=range]::-webkit-slider-thumb {
+    height: 13px;
+    width: 13px;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer div.myplayer__controls div.controls__btns div.right div.btns.volume div.volume__progress input[type=range]::-moz-range-thumb {
+    height: 13px;
+    width: 13px;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer div.myplayer__controls div.controls__btns div.right div.btns.volume div.volume__progress.active {
+    display: block;
+  }
+  footer div.footer {
+    height: 40%;
+  }
+  footer div.footer div.footer-right img {
+    width: 100%;
+  }
+  footer div.footer div.footer-center {
+    margin-top: 1rem;
+  }
+  footer div.footer div.footer-center div.footer-center1 {
+    width: 45%;
+    margin-right: 1rem;
+  }
+  footer div.footer div.footer-center div.footer-center1 h3.footer-center-heading {
+    padding-bottom: 3px;
+    margin: 0 .1rem 0;
+    font-weight: 500;
+    font-size: 100%;
+  }
+  footer div.footer div.footer-center div.footer-center1 p.footer-center-description {
+    font-size: 90%;
+    font-weight: 500;
+    padding-top: .3rem;
+    margin: 0 .1rem 0;
+  }
+  footer div.footer div.footer-center div.footer-center2 {
+    width: 45%;
+    margin-right: 1.5rem;
+    margin-left: 3.5rem;
+  }
+  footer div.footer div.footer-center div.footer-center2 h3.footer-center-heading {
+    padding-bottom: 3px;
+    margin: 0 .1rem 0;
+    font-weight: 500;
+    font-size: 100%;
+  }
+  footer div.footer div.footer-center div.footer-center2 p.footer-center-description {
+    font-size: 90%;
+    font-weight: 500;
+    padding-top: .3rem;
+    margin: 0 .1rem 0;
+  }
+  footer div.footer div.footer-center div.footer-center2 p.footer-center-description strong.telephone {
+    font-size: 90%;
+    font-weight: 500;
+  }
+  footer div.footer div.footer-center div.footer-center2 div.footer-left ul.footer-left-icon-item {
+    margin: 0 0 0 1rem;
+  }
+  footer div.footer div.footer-center div.footer-center2 div.footer-left ul.footer-left-icon-item-link i.social-media {
+    font-size: 20px;
+  }
+  footer div.footer-copyRight small.text-muted {
+    font-size: 70%;
+  }
+}
+
+@media (max-width: 800px) {
+  header.container-fluid {
+    width: 100%;
+    height: 100%;
+  }
+  header.container-fluid div.register-login {
+    width: 100%;
+    height: 70px;
+  }
+  header.container-fluid div.register-login img.logo {
+    width: 55px;
+    height: 55px;
+  }
+  header.container-fluid div.register-login div.search-box {
+    width: 50%;
+  }
+  header.container-fluid div.register-login div.search-box input.search {
+    width: 80%;
+    height: 25px;
+    font-size: 90%;
+  }
+  header.container-fluid div.register-login div.search-box button.input-group-prepend {
+    width: 10%;
+    margin: 0;
+    padding-right: 0;
+    padding-left: 0;
+  }
+  header.container-fluid div.register-login div.search-box button.input-group-prepend div.input-group-text {
+    padding: 0;
+    width: 100%;
+  }
+  header.container-fluid div.register-login div.search-box button.input-group-prepend div.input-group-text i {
+    font-size: 23px;
+  }
+  header.container-fluid div.register-login div.search-box input.search {
+    border-left: 0;
+  }
+  header.container-fluid div.register-login div.buttons {
+    margin: 1.5rem;
+  }
+  header.container-fluid div.register-login div.buttons button.btn.login {
+    border-radius: 28px;
+    padding: .3rem 1.2rem;
+  }
+  section.main-content.container {
+    width: 100%;
+  }
+  section.main-content.container div.section-title {
+    margin: 1rem;
+  }
+  section.main-content.container div.section-title h3.h3 {
+    font-size: 2rem;
+    text-shadow: 0px 3px 0px rgba(0, 0, 0, 0.2);
+  }
+  section.main-content.container div.section-title h4.text-muted.lead {
+    font-size: 80%;
+  }
+  section.main-content.container div.card {
+    width: 100%;
+    height: 450px;
+    margin: .2rem 0 1rem;
+    padding: 0rem;
+  }
+  section.main-content.container div.card div.img-gallery.owl-carousel.owl-theme.owl-rtl.owl-loaded.owl-drag {
+    width: 100%;
+    height: 100%;
+  }
+  section.main-content.container div.card div.img-gallery.owl-carousel.owl-theme.owl-rtl.owl-loaded.owl-drag div.owl-stage-outer {
+    width: 100%;
+  }
+  section.main-content.container div.card div.img-gallery.owl-carousel.owl-theme.owl-rtl.owl-loaded.owl-drag div.owl-stage-outer div.owl-stage {
+    width: 50%;
+  }
+  section.main-content.container div.card div.img-gallery.owl-carousel.owl-theme.owl-rtl.owl-loaded.owl-drag div.owl-stage-outer div.owl-stage div.owl-item {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  section.main-content.container div.card div.img-gallery.owl-carousel.owl-theme.owl-rtl.owl-loaded.owl-drag div.owl-stage-outer div.owl-stage div.owl-item img.image-slide {
+    width: 100%;
+    height: 90%;
+  }
+  section.main-content.container div.card div.img-gallery.owl-carousel.owl-theme.owl-rtl.owl-loaded.owl-drag div.owl-stage-outer div.owl-stage div.owl-item.center {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  section.main-content.container div.card div.img-gallery.owl-carousel.owl-theme.owl-rtl.owl-loaded.owl-drag div.owl-dots {
+    width: 100%;
+    height: 10%;
+    margin-top: 0;
+    position: absolute;
+    bottom: 0rem;
+  }
+  section.main-content.container div.card div.img-gallery.owl-carousel.owl-theme.owl-rtl.owl-loaded.owl-drag div.owl-dots button.owl-dot {
+    width: 35px;
+    height: 8px;
+    border-radius: 10px;
+    transition: all 0.3s ease-in;
+    margin: 0 8px;
+    outline: none;
+  }
+  section.slide-video.container-fluid {
+    width: 100%;
+    height: max-content;
+    margin-top: 2rem;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme {
+    width: 100%;
+    height: 100%;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.owl-stage-outer {
+    width: 100%;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.owl-stage-outer div.owl-stage {
+    width: 50%;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.owl-stage-outer div.owl-stage div.owl-item {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.owl-stage-outer div.owl-stage div.owl-item img.image-slide {
+    width: 100%;
+    height: 100%;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.owl-nav button.owl-prev {
+    position: absolute;
+    top: 50%;
+    left: 0;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.owl-nav button.owl-prev i.fa.fa-angle-left {
+    font-size: 28px;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.owl-nav button.owl-next {
+    position: absolute;
+    top: 50%;
+    right: 0;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.owl-nav button.owl-next i.fa.fa-angle-right {
+    font-size: 28px;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide {
+    width: 100%;
+    flex-direction: column;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide span.text-video {
+    width: 100%;
+    margin-top: 5%;
+    margin-left: 0;
+    font-size: 95%;
+    order: 2;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer {
+    order: 1;
+    width: 100%;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer video {
+    width: 100%;
+    height: auto;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer div.myplayer__controls {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer div.myplayer__controls div.controls__progressbar {
+    height: 6px;
+    width: 100%;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer div.myplayer__controls div.controls__progressbar input.controls__progressbar-current {
+    height: 6px;
+    margin: 0;
+    position: absolute;
+    width: 100%;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer div.myplayer__controls div.controls__progressbar input.controls__progressbar-current::-webkit-slider-thumb {
+    height: 13px;
+    width: 13px;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer div.myplayer__controls div.controls__progressbar input.controls__progressbar-current::-moz-range-thumb {
+    height: 13px;
+    width: 13px;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer div.myplayer__controls div.controls__btns {
+    margin: 10px 15px;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer div.myplayer__controls div.controls__btns div.left .btns:not(:first-child) {
+    margin-left: 20px;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer div.myplayer__controls div.controls__btns div.right .btns:not(:last-child) {
+    margin-right: 20px;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer div.myplayer__controls div.controls__btns div.left {
+    display: flex;
+    align-items: center;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer div.myplayer__controls div.controls__btns div.left div.btns.play {
+    font-size: 1.2em;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer div.myplayer__controls div.controls__btns div.left div.timer {
+    margin-left: 20px;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer div.myplayer__controls div.controls__btns div.right div.btns.volume {
+    font-size: 1.2em;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer div.myplayer__controls div.controls__btns div.right div.btns.volume div.volume__progress {
+    position: absolute;
+    top: -50px;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer div.myplayer__controls div.controls__btns div.right div.btns.volume div.volume__progress input[type=range] {
+    display: flex;
+    -webkit-appearance: none;
+    -moz-apperance: none;
+    border-radius: 6px;
+    height: 6px;
+    width: 77px;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer div.myplayer__controls div.controls__btns div.right div.btns.volume div.volume__progress input[type=range]::-webkit-slider-thumb {
+    height: 13px;
+    width: 13px;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer div.myplayer__controls div.controls__btns div.right div.btns.volume div.volume__progress input[type=range]::-moz-range-thumb {
+    height: 13px;
+    width: 13px;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer div.myplayer__controls div.controls__btns div.right div.btns.volume div.volume__progress.active {
+    display: block;
+  }
+  footer div.footer {
+    height: 40%;
+  }
+  footer div.footer div.footer-right img {
+    width: 100%;
+  }
+  footer div.footer div.footer-center {
+    margin-top: 1rem;
+  }
+  footer div.footer div.footer-center div.footer-center1 {
+    width: 50%;
+    margin-right: 1rem;
+  }
+  footer div.footer div.footer-center div.footer-center1 h3.footer-center-heading {
+    padding-bottom: 3px;
+    margin: 0 .1rem 0;
+    font-weight: 500;
+    font-size: 95%;
+  }
+  footer div.footer div.footer-center div.footer-center1 p.footer-center-description {
+    font-size: 85%;
+    font-weight: 500;
+    padding-top: .3rem;
+    margin: 0 .1rem 0;
+  }
+  footer div.footer div.footer-center div.footer-center2 {
+    width: 50%;
+    margin-right: 1rem;
+    margin-left: 2rem;
+  }
+  footer div.footer div.footer-center div.footer-center2 h3.footer-center-heading {
+    padding-bottom: 3px;
+    margin: 0 .1rem 0;
+    font-weight: 500;
+    font-size: 95%;
+  }
+  footer div.footer div.footer-center div.footer-center2 p.footer-center-description {
+    font-size: 85%;
+    font-weight: 500;
+    padding-top: .3rem;
+    margin: 0 .1rem 0;
+  }
+  footer div.footer div.footer-center div.footer-center2 p.footer-center-description strong.telephone {
+    font-size: 88%;
+    font-weight: 500;
+  }
+  footer div.footer div.footer-center div.footer-center2 div.footer-left ul.footer-left-icon-item {
+    margin: 0 0 0 1rem;
+  }
+  footer div.footer div.footer-center div.footer-center2 div.footer-left ul.footer-left-icon-item-link i.social-media {
+    font-size: 20px;
+  }
+  footer div.footer-copyRight small.text-muted {
+    font-size: 70%;
+  }
+}
+
+@media (max-width: 700px) {
+  header.container-fluid {
+    width: 100%;
+    height: 100%;
+  }
+  header.container-fluid div.register-login {
+    width: 100%;
+    height: 60px;
+  }
+  header.container-fluid div.register-login img.logo {
+    width: 50px;
+    height: 50px;
+  }
+  header.container-fluid div.register-login div.search-box {
+    width: 50%;
+  }
+  header.container-fluid div.register-login div.search-box input.search {
+    width: 80%;
+    height: 20px;
+    font-size: 90%;
+  }
+  header.container-fluid div.register-login div.search-box button.input-group-prepend {
+    width: 10%;
+    margin: 0;
+    padding-right: 0;
+    padding-left: 0;
+  }
+  header.container-fluid div.register-login div.search-box button.input-group-prepend div.input-group-text {
+    padding: 0;
+    width: 100%;
+  }
+  header.container-fluid div.register-login div.search-box button.input-group-prepend div.input-group-text i {
+    font-size: 18px;
+  }
+  header.container-fluid div.register-login div.search-box input.search {
+    border-left: 0;
+    font-size: 90%;
+  }
+  header.container-fluid div.register-login div.buttons {
+    margin: 1rem;
+  }
+  header.container-fluid div.register-login div.buttons button.btn.login {
+    border-radius: 28px;
+    padding: .3rem 1rem;
+    font-size: 90%;
+  }
+  section.main-content.container {
+    width: 100%;
+  }
+  section.main-content.container div.section-title {
+    margin: 1rem;
+  }
+  section.main-content.container div.section-title h3.h3 {
+    font-size: 1.7rem;
+    text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.2);
+  }
+  section.main-content.container div.section-title h4.text-muted.lead {
+    font-size: 78%;
+  }
+  section.main-content.container div.card {
+    width: 100%;
+    height: 450px;
+    margin: .2rem 0 1rem;
+    padding: 0rem;
+  }
+  section.main-content.container div.card div.img-gallery.owl-carousel.owl-theme.owl-rtl.owl-loaded.owl-drag {
+    width: 100%;
+    height: 100%;
+  }
+  section.main-content.container div.card div.img-gallery.owl-carousel.owl-theme.owl-rtl.owl-loaded.owl-drag div.owl-stage-outer {
+    width: 100%;
+  }
+  section.main-content.container div.card div.img-gallery.owl-carousel.owl-theme.owl-rtl.owl-loaded.owl-drag div.owl-stage-outer div.owl-stage {
+    width: 50%;
+  }
+  section.main-content.container div.card div.img-gallery.owl-carousel.owl-theme.owl-rtl.owl-loaded.owl-drag div.owl-stage-outer div.owl-stage div.owl-item {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  section.main-content.container div.card div.img-gallery.owl-carousel.owl-theme.owl-rtl.owl-loaded.owl-drag div.owl-stage-outer div.owl-stage div.owl-item img.image-slide {
+    width: 100%;
+    height: 90%;
+  }
+  section.main-content.container div.card div.img-gallery.owl-carousel.owl-theme.owl-rtl.owl-loaded.owl-drag div.owl-stage-outer div.owl-stage div.owl-item.center {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  section.main-content.container div.card div.img-gallery.owl-carousel.owl-theme.owl-rtl.owl-loaded.owl-drag div.owl-dots {
+    width: 100%;
+    height: 10%;
+    margin-top: 0;
+    position: absolute;
+    bottom: 0rem;
+  }
+  section.main-content.container div.card div.img-gallery.owl-carousel.owl-theme.owl-rtl.owl-loaded.owl-drag div.owl-dots button.owl-dot {
+    width: 35px;
+    height: 8px;
+    border-radius: 10px;
+    margin: 0 8px;
+  }
+  section.slide-video.container-fluid {
+    width: 100%;
+    height: max-content;
+    margin-top: 2rem;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme {
+    width: 100%;
+    height: 100%;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.owl-stage-outer {
+    width: 100%;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.owl-stage-outer div.owl-stage {
+    width: 100%;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.owl-stage-outer div.owl-stage div.owl-item {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.owl-stage-outer div.owl-stage div.owl-item img.image-slide {
+    width: 100%;
+    height: 100%;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.owl-nav button.owl-prev {
+    position: absolute;
+    top: 50%;
+    left: 0;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.owl-nav button.owl-prev i.fa.fa-angle-left {
+    font-size: 28px;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.owl-nav button.owl-next {
+    position: absolute;
+    top: 50%;
+    right: 0;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.owl-nav button.owl-next i.fa.fa-angle-right {
+    font-size: 28px;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide {
+    width: 100%;
+    flex-direction: column;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide span.text-video {
+    width: 100%;
+    margin-top: 5%;
+    margin-left: 0;
+    font-size: 95%;
+    order: 2;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer {
+    order: 1;
+    width: 100%;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer video {
+    width: 100%;
+    height: auto;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer div.myplayer__controls {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer div.myplayer__controls div.controls__progressbar {
+    height: 6px;
+    width: 100%;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer div.myplayer__controls div.controls__progressbar input.controls__progressbar-current {
+    height: 6px;
+    margin: 0;
+    position: absolute;
+    width: 100%;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer div.myplayer__controls div.controls__progressbar input.controls__progressbar-current::-webkit-slider-thumb {
+    height: 13px;
+    width: 13px;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer div.myplayer__controls div.controls__progressbar input.controls__progressbar-current::-moz-range-thumb {
+    height: 13px;
+    width: 13px;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer div.myplayer__controls div.controls__btns {
+    margin: 10px 15px;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer div.myplayer__controls div.controls__btns div.left .btns:not(:first-child) {
+    margin-left: 20px;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer div.myplayer__controls div.controls__btns div.right .btns:not(:last-child) {
+    margin-right: 20px;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer div.myplayer__controls div.controls__btns div.left {
+    display: flex;
+    align-items: center;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer div.myplayer__controls div.controls__btns div.left div.btns.play {
+    font-size: 1.2em;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer div.myplayer__controls div.controls__btns div.left div.timer {
+    margin-left: 20px;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer div.myplayer__controls div.controls__btns div.right div.btns.volume {
+    font-size: 1.2em;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer div.myplayer__controls div.controls__btns div.right div.btns.volume div.volume__progress {
+    position: absolute;
+    top: -50px;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer div.myplayer__controls div.controls__btns div.right div.btns.volume div.volume__progress input[type=range] {
+    display: flex;
+    -webkit-appearance: none;
+    -moz-apperance: none;
+    border-radius: 6px;
+    height: 6px;
+    width: 77px;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer div.myplayer__controls div.controls__btns div.right div.btns.volume div.volume__progress input[type=range]::-webkit-slider-thumb {
+    height: 13px;
+    width: 13px;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer div.myplayer__controls div.controls__btns div.right div.btns.volume div.volume__progress input[type=range]::-moz-range-thumb {
+    height: 13px;
+    width: 13px;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer div.myplayer__controls div.controls__btns div.right div.btns.volume div.volume__progress.active {
+    display: block;
+  }
+  footer div.footer {
+    height: 40%;
+  }
+  footer div.footer div.footer-right {
+    display: none;
+  }
+  footer div.footer div.footer-center {
+    margin-top: 1rem;
+    width: 100%;
+  }
+  footer div.footer div.footer-center div.footer-center1 {
+    width: 50%;
+    margin-right: 1rem;
+  }
+  footer div.footer div.footer-center div.footer-center1 h3.footer-center-heading {
+    padding-bottom: 3px;
+    margin: 0 .1rem 0;
+    font-weight: 500;
+    font-size: 90%;
+  }
+  footer div.footer div.footer-center div.footer-center1 p.footer-center-description {
+    font-size: 80%;
+    font-weight: 500;
+    padding-top: .3rem;
+    margin: 0 .1rem 0;
+  }
+  footer div.footer div.footer-center div.footer-center2 {
+    width: 50%;
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+  footer div.footer div.footer-center div.footer-center2 h3.footer-center-heading {
+    padding-bottom: 3px;
+    margin: 0 .1rem 0;
+    font-weight: 500;
+    font-size: 90%;
+  }
+  footer div.footer div.footer-center div.footer-center2 p.footer-center-description {
+    font-size: 80%;
+    font-weight: 500;
+    padding-top: .3rem;
+    margin: 0 .1rem 0;
+  }
+  footer div.footer div.footer-center div.footer-center2 p.footer-center-description strong.telephone {
+    font-size: 88%;
+    font-weight: 500;
+  }
+  footer div.footer-copyRight small.text-muted {
+    font-size: 65%;
+  }
+}
+
+@media (max-width: 587px) {
+  header.container-fluid {
+    width: 100%;
+    height: 100%;
+  }
+  header.container-fluid div.register-login {
+    width: 100%;
+    height: 60px;
+  }
+  header.container-fluid div.register-login img.logo {
+    width: 45px;
+    height: 45px;
+  }
+  header.container-fluid div.register-login div.search-box {
+    width: 50%;
+  }
+  header.container-fluid div.register-login div.search-box input.search {
+    width: 75%;
+    height: 20px;
+    font-size: 90%;
+  }
+  header.container-fluid div.register-login div.search-box button.input-group-prepend {
+    width: 10%;
+    margin: 0;
+    padding-right: 0;
+    padding-left: 0;
+  }
+  header.container-fluid div.register-login div.search-box button.input-group-prepend div.input-group-text {
+    padding: 0;
+    width: 100%;
+  }
+  header.container-fluid div.register-login div.search-box button.input-group-prepend div.input-group-text i {
+    font-size: 16px;
+  }
+  header.container-fluid div.register-login div.search-box input.search {
+    border-left: 0;
+    font-size: 90%;
+  }
+  header.container-fluid div.register-login div.buttons {
+    margin: 1rem;
+  }
+  header.container-fluid div.register-login div.buttons button.btn.login {
+    border-radius: 28px;
+    padding: .3rem 1rem;
+    font-size: 90%;
+  }
+  section.main-content.container {
+    width: 100%;
+  }
+  section.main-content.container div.section-title {
+    margin: 1rem;
+  }
+  section.main-content.container div.section-title h3.h3 {
+    font-size: 1.7rem;
+    text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.2);
+  }
+  section.main-content.container div.section-title h4.text-muted.lead {
+    font-size: 78%;
+  }
+  section.main-content.container div.card {
+    width: 100%;
+    height: 450px;
+    margin: .2rem 0 1rem;
+    padding: 0rem;
+  }
+  section.main-content.container div.card div.img-gallery.owl-carousel.owl-theme.owl-rtl.owl-loaded.owl-drag {
+    width: 100%;
+    height: 100%;
+  }
+  section.main-content.container div.card div.img-gallery.owl-carousel.owl-theme.owl-rtl.owl-loaded.owl-drag div.owl-stage-outer {
+    width: 100%;
+  }
+  section.main-content.container div.card div.img-gallery.owl-carousel.owl-theme.owl-rtl.owl-loaded.owl-drag div.owl-stage-outer div.owl-stage {
+    width: 50%;
+  }
+  section.main-content.container div.card div.img-gallery.owl-carousel.owl-theme.owl-rtl.owl-loaded.owl-drag div.owl-stage-outer div.owl-stage div.owl-item {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  section.main-content.container div.card div.img-gallery.owl-carousel.owl-theme.owl-rtl.owl-loaded.owl-drag div.owl-stage-outer div.owl-stage div.owl-item img.image-slide {
+    width: 100%;
+    height: 90%;
+  }
+  section.main-content.container div.card div.img-gallery.owl-carousel.owl-theme.owl-rtl.owl-loaded.owl-drag div.owl-stage-outer div.owl-stage div.owl-item.center {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  section.main-content.container div.card div.img-gallery.owl-carousel.owl-theme.owl-rtl.owl-loaded.owl-drag div.owl-dots {
+    width: 100%;
+    height: 10%;
+    margin-top: 0;
+    position: absolute;
+    bottom: 0rem;
+  }
+  section.main-content.container div.card div.img-gallery.owl-carousel.owl-theme.owl-rtl.owl-loaded.owl-drag div.owl-dots button.owl-dot {
+    width: 35px;
+    height: 8px;
+    border-radius: 10px;
+    margin: 0 8px;
+  }
+  section.slide-video.container-fluid {
+    width: 100%;
+    height: max-content;
+    margin-top: 2rem;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme {
+    width: 100%;
+    height: 100%;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.owl-stage-outer {
+    width: 100%;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.owl-stage-outer div.owl-stage {
+    width: 100%;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.owl-stage-outer div.owl-stage div.owl-item {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.owl-stage-outer div.owl-stage div.owl-item img.image-slide {
+    width: 100%;
+    height: 100%;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.owl-nav button.owl-prev {
+    position: absolute;
+    top: 50%;
+    left: 0;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.owl-nav button.owl-prev i.fa.fa-angle-left {
+    font-size: 28px;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.owl-nav button.owl-next {
+    position: absolute;
+    top: 50%;
+    right: 0;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.owl-nav button.owl-next i.fa.fa-angle-right {
+    font-size: 28px;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide {
+    width: 100%;
+    flex-direction: column;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide span.text-video {
+    width: 100%;
+    margin-top: 5%;
+    margin-left: 0;
+    font-size: 95%;
+    order: 2;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer {
+    order: 1;
+    width: 100%;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer video {
+    width: 100%;
+    height: auto;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer div.myplayer__controls {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer div.myplayer__controls div.controls__progressbar {
+    height: 6px;
+    width: 100%;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer div.myplayer__controls div.controls__progressbar input.controls__progressbar-current {
+    height: 6px;
+    margin: 0;
+    position: absolute;
+    width: 100%;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer div.myplayer__controls div.controls__progressbar input.controls__progressbar-current::-webkit-slider-thumb {
+    height: 13px;
+    width: 13px;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer div.myplayer__controls div.controls__progressbar input.controls__progressbar-current::-moz-range-thumb {
+    height: 13px;
+    width: 13px;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer div.myplayer__controls div.controls__btns {
+    margin: 10px 15px;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer div.myplayer__controls div.controls__btns div.left .btns:not(:first-child) {
+    margin-left: 20px;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer div.myplayer__controls div.controls__btns div.right .btns:not(:last-child) {
+    margin-right: 20px;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer div.myplayer__controls div.controls__btns div.left {
+    display: flex;
+    align-items: center;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer div.myplayer__controls div.controls__btns div.left div.btns.play {
+    font-size: 1.2em;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer div.myplayer__controls div.controls__btns div.left div.timer {
+    margin-left: 20px;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer div.myplayer__controls div.controls__btns div.right div.btns.volume {
+    font-size: 1.2em;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer div.myplayer__controls div.controls__btns div.right div.btns.volume div.volume__progress {
+    position: absolute;
+    top: -50px;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer div.myplayer__controls div.controls__btns div.right div.btns.volume div.volume__progress input[type=range] {
+    display: flex;
+    -webkit-appearance: none;
+    -moz-apperance: none;
+    border-radius: 6px;
+    height: 6px;
+    width: 77px;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer div.myplayer__controls div.controls__btns div.right div.btns.volume div.volume__progress input[type=range]::-webkit-slider-thumb {
+    height: 13px;
+    width: 13px;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer div.myplayer__controls div.controls__btns div.right div.btns.volume div.volume__progress input[type=range]::-moz-range-thumb {
+    height: 13px;
+    width: 13px;
+  }
+  section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer div.myplayer__controls div.controls__btns div.right div.btns.volume div.volume__progress.active {
+    display: block;
+  }
+  footer div.footer {
+    height: 40%;
+  }
+  footer div.footer div.footer-right {
+    display: none;
+  }
+  footer div.footer div.footer-center {
+    margin-top: 1rem;
+    width: 100%;
+  }
+  footer div.footer div.footer-center div.footer-center1 {
+    width: 50%;
+    margin-right: 1rem;
+  }
+  footer div.footer div.footer-center div.footer-center1 h3.footer-center-heading {
+    padding-bottom: 3px;
+    margin: 0 .1rem 0;
+    font-weight: 500;
+    font-size: 85%;
+  }
+  footer div.footer div.footer-center div.footer-center1 p.footer-center-description {
+    font-size: 78%;
+    font-weight: 500;
+    padding-top: .3rem;
+    margin: 0 .1rem 0;
+  }
+  footer div.footer div.footer-center div.footer-center2 {
+    width: 50%;
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+  footer div.footer div.footer-center div.footer-center2 h3.footer-center-heading {
+    padding-bottom: 3px;
+    margin: 0 .1rem 0;
+    font-weight: 500;
+    font-size: 85%;
+  }
+  footer div.footer div.footer-center div.footer-center2 p.footer-center-description {
+    font-size: 78%;
+    font-weight: 500;
+    padding-top: .3rem;
+    margin: 0 .1rem 0;
+  }
+  footer div.footer div.footer-center div.footer-center2 p.footer-center-description strong.telephone {
+    font-size: 85%;
+    font-weight: 500;
+  }
+  footer div.footer-copyRight small.text-muted {
+    font-size: 60%;
+    margin: .5rem;
+  }
+  footer div.footer-copyRight small.text-muted strong {
+    padding: 0 4px;
+  }
+}
+/*# sourceMappingURL=mediaHome.css.map */

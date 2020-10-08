@@ -9,21 +9,21 @@
     <link rel="stylesheet" href="./src/css/reset.css" />
     <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="./src/css/home.css" />
+    <link rel="stylesheet" href="./src/css/mediaHome.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="./src/css/themify-icons.css">
     <link rel="stylesheet" href="./src/css/owl.carousel.min.css">
-    <!-- <link rel="stylesheet" href="./src/css/owlcarousel/owl.theme.default.min.css"> -->
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
 </head>
 
 <body>
     <!--start header-->
     <header class="container-fluid px-0">
         <div class="register-login">
-            <img src="./img/bg30-1.png" alt="Logo" class="logo ml-3 mr-5">
-            <!-- <img src="https://img.icons8.com/clouds/100/000000/student-male.png" class="logo ml-3 mr-5" /> -->
-            <div class="search-box input-group mb-2 mr-sm-2">
+            <img src="./img/icons-learning-1.png" alt="Logo" class="logo ml-3 mr-sm-3 mr-md-5">
+            <div class="search-box input-group mr-sm-2">
                 <button class="btn input-group-prepend">
                     <div class="input-group-text"><i class="ti-search"></i></div>
                 </button>
@@ -55,12 +55,6 @@
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link" data-toggle="dropdown" id="navbarDropdown">
-                                <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="18px"
-                                    height="18px">
-                                    <path d="M0 0h24v24H0V0z" fill="none" />
-                                    <path
-                                        d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z" />
-                                </svg> -->
                                 <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="32" height="32"
                                     viewBox="0 0 172 172" style=" fill:#000000;">
                                     <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1"
@@ -210,60 +204,6 @@
                                         فیلم</a></li>
                             </ul>
                         </li>
-                        <!-- <li class="nav-item dropdown" id="nav-item">
-                            <a class="nav-link" data-toggle="dropdown" id="navbarDropdown">
-                                سیستم تلفنی
-                                <i class="jet-dropdown-arrow fa fa-angle-down"></i>
-                            </a>
-                            <ul class="dropdown-menu" id="sub-menu-0">
-                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">گزارش وضعیت</a>
-                                </li>
-
-                                <li class="list-item dropdown" id="sub2-1">
-                                    <a href="#" class="dropdown-item" id="navbarDropdown" data-toggle="dropdown">
-                                        شماره های داخلی
-                                        <i class="jet-dropdown-arrow fa fa-angle-down"></i>
-                                    </a>
-                                    <ul class="dropdown-menu navbar-nav" id="sub-menu-1">
-                                        <li class="dropdown-item"><a href="#" class="dropdown-item">SIP</a></li>
-                                        <li class="dropdown-item"><a href="#" class="dropdown-item">IAX</a></li>
-                                    </ul>
-
-                                </li>
-
-                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">تماس های
-                                        ورودی</a></li>
-                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">تماس های
-                                        خروجی</a></li>
-                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">IVR</a></li>
-                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">Trunk</a></li>
-                                <li class="list-item dropdown" id="sub2-2">
-                                    <a href="#" class="dropdown-item dropdown" data-toggle="dropdown">
-                                        گروه بندی
-                                        <i class="jet-dropdown-arrow fa fa-angle-down"></i>
-                                    </a>
-                                    <ul class="dropdown-menu" id="sub-menu-1">
-                                        <li class="dropdown-item"><a href="#" class="dropdown-item">گروه داخلی</a></li>
-                                        <li class="dropdown-item"><a href="#" class="dropdown-item">گروه کارت های
-                                                شهری</a></li>
-                                        <li class="dropdown-item"><a href="#" class="dropdown-item">گروه زنگ</a></li>
-                                    </ul>
-
-                                </li>
-
-                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">فایل صوتی</a>
-                                </li>
-                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">آهنگ انتظار</a>
-                                </li>
-                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">صف انتظار</a>
-                                </li>
-                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">کد ساز</a></li>
-                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">کدهای غیرمجاز</a>
-                                </li>
-                                <li class="list-item" id="list-item"><a href="#" class="dropdown-item">ساعت های کاری</a>
-                                </li>
-                            </ul>
-                        </li> -->
                         <li class="nav-item nav-end"><a href="#" class="nav-link">
                                 <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="64" height="64"
                                     viewBox="0 0 172 172" style=" fill:#000000;">
@@ -308,6 +248,7 @@
         </div>
     </header>
     <!--end header-->
+
     <!--start content-->
     <section class="main-content container px-0 ">
         <div class="section-title ">
@@ -317,21 +258,229 @@
 
         <div class="card">
             <div class="img-gallery owl-carousel owl-theme">
-                <img src="img/slide-4.png" alt="screen3" class="owl-lazy">
-                <img src="img/logo33.png" alt="screen1" class="owl-lazy">
-                <img src="img/slide-1.png" alt="screen2" class="owl-lazy">
-                <img src="img/slide-3.png" alt="screen3" class="owl-lazy">
-                <img src="img/slide-5.jpg" alt="screen3" class="owl-lazy">
+                <img src="img/slide-1.png" alt="screen2" class="image-slide">
+                <img src="img/slide-1.png" alt="screen2" class="image-slide">
+                <img src="img/slide-1.png" alt="screen2" class="image-slide">
+                <img src="img/slide-5.jpg" alt="screen3" class="image-slide">
             </div>
         </div>
-
     </section>
+
+    <!-- <hr> -->
+
+    <section class="slide-video container-fluid">
+        <div class="video-gallery owl-carousel owl-theme" id="video-gallery">
+            <div class="item-slide">
+                <span class="text-video">پخش آنلاین آموزش های
+                    انگلیسی برای اولین بار در سایت فراگیری انجام شد. با گذشت چندین سال از راه اندازی فراگیری تغییرات
+                    عمده ای در روش آموزش و همچنین سهولت استفاده کاربران انجام شده است. قطعا هر سیستمی مشکلاتی دارد و راه
+                    کار هایی برای بهتر شدن که خوشحال میشیم آن ها را از طریق راه های تماس با ما مطرح کنید.
+
+                    دسته بندی سایت فراگیری گسترده بوده و هر روز نیز به این آموزش ها افزوده می شود.
+                </span>
+                <div class="myplayer">
+                    <video src="./big_buck_bunny.mp4"></video>
+
+                    <div class="myplayer__controls">
+                        <div class="controls__progressbar">
+                            <input class="controls__progressbar-current" type="range" min="1" max="100" step="1"
+                                value="0">
+                        </div>
+
+                        <div class="controls__btns">
+                            <div class="left">
+                                <div class="btns play">
+                                    <i class="icon ion-md-play"></i>
+                                </div>
+                                <div class="btns rewind">
+                                    <i class="icon ion-md-rewind"></i>
+                                </div>
+                                <div class="btns forward">
+                                    <i class="icon ion-md-fastforward"></i>
+                                </div>
+                                <div class="timer">
+                                    <span class="currentTime">00:00:00</span>
+                                    <span>/</span>
+                                    <span class="videoTime">00:00:00</span>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <div class="btns volume">
+                                    <i class="icon ion-md-volume-high"></i>
+                                    <div class="volume__progress">
+                                        <input id="volume_bar" type="range" min="1" max="100" step="1" value="50">
+                                    </div>
+                                </div>
+                                <div class="btns fullscreen">
+                                    <i class="icon ion-md-expand"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item-slide">
+                <span class="text-video"> سایت فراگیری در سال 1396 برای
+                    اولین بار محتوا آموزشی با کیفیت را از سایت های معتبر به صورت استریم پخش کرد. پخش آنلاین آموزش های
+                    انگلیسی برای اولین بار در سایت فراگیری انجام شد. با گذشت چندین سال از راه اندازی فراگیری تغییرات
+                    عمده ای در روش آموزش و همچنین سهولت استفاده کاربران انجام شده است. قطعا هر سیستمی مشکلاتی دارد و راه
+                    کار هایی برای بهتر شدن که خوشحال میشیم آن ها را از طریق راه های تماس با ما مطرح کنید.
+                </span>
+                <div class="myplayer">
+                    <video src="./big_buck_bunny.mp4"></video>
+
+                    <div class="myplayer__controls">
+                        <div class="controls__progressbar">
+                            <input class="controls__progressbar-current" type="range" min="1" max="100" step="1"
+                                value="0">
+                        </div>
+
+                        <div class="controls__btns">
+                            <div class="left">
+                                <div class="btns play">
+                                    <i class="icon ion-md-play"></i>
+                                </div>
+                                <div class="btns rewind">
+                                    <i class="icon ion-md-rewind"></i>
+                                </div>
+                                <div class="btns forward">
+                                    <i class="icon ion-md-fastforward"></i>
+                                </div>
+                                <div class="timer">
+                                    <span class="currentTime">00:00:00</span>
+                                    <span>/</span>
+                                    <span class="videoTime">00:00:00</span>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <div class="btns volume">
+                                    <i class="icon ion-md-volume-high"></i>
+                                    <div class="volume__progress">
+                                        <input id="volume_bar" type="range" min="1" max="100" step="1" value="50">
+                                    </div>
+                                </div>
+                                <div class="btns fullscreen">
+                                    <i class="icon ion-md-expand"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item-slide">
+                <span class="text-video">فراگیری پلتفرم آموزش آنلاین به زبان انگلیسی است. سایت فراگیری در سال 1396 برای
+                    اولین بار محتوا آموزشی با کیفیت را از سایت های معتبر به صورت استریم پخش کرد. پخش آنلاین آموزش های
+                    انگلیسی برای اولین بار در سایت فراگیری انجام شد. با گذشت چندین سال از راه اندازی فراگیری تغییرات
+                    عمده ای در روش آموزش و همچنین سهولت استفاده کاربران انجام شده است.
+                    دسته بندی سایت فراگیری گسترده بوده و هر روز نیز به این آموزش ها افزوده می شود.
+                </span>
+                <div class="myplayer">
+                    <video src="./big_buck_bunny.mp4"></video>
+
+                    <div class="myplayer__controls">
+                        <div class="controls__progressbar">
+                            <input class="controls__progressbar-current" type="range" min="1" max="100" step="1"
+                                value="0">
+                        </div>
+
+                        <div class="controls__btns">
+                            <div class="left">
+                                <div class="btns play">
+                                    <i class="icon ion-md-play"></i>
+                                </div>
+                                <div class="btns rewind">
+                                    <i class="icon ion-md-rewind"></i>
+                                </div>
+                                <div class="btns forward">
+                                    <i class="icon ion-md-fastforward"></i>
+                                </div>
+                                <div class="timer">
+                                    <span class="currentTime">00:00:00</span>
+                                    <span>/</span>
+                                    <span class="videoTime">00:00:00</span>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <div class="btns volume">
+                                    <i class="icon ion-md-volume-high"></i>
+                                    <div class="volume__progress">
+                                        <input id="volume_bar" type="range" min="1" max="100" step="1" value="50">
+                                    </div>
+                                </div>
+                                <div class="btns fullscreen">
+                                    <i class="icon ion-md-expand"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!--end content-->
     <!--start footer-->
+    <footer>
+        <div class="container-fluid footer">
+            <div class="footer-right">
+                <img src="img/logo6.7.png" class="img-fluid" alt="Footer image could not load">
+            </div>
+            <div class="footer-center">
+                <div class="footer-center1">
+                    <h3 class="footer-center-heading">درباره ما</h3>
+                    <p class="footer-center-description">
+                        آمزش آنلاین یکی از پرتلاش ترین و بروزترین آموزشگاه های اینترنتی در زمینه ی ارائه انواع آموزش های
+                        تکنیکی، اداری و دانشگاهی است و هچنان تلاش می شود جدیدترین آموزش ها را در اختیار علاقه مندان قرار
+                        دهد.
+                    </p>
+                </div>
+                <div class="footer-center2">
+                    <h3 class="footer-center-heading">تماس با ما</h3>
+                    <p class="footer-center-description">
+                        شما می توانید نظرات و پیشنهادات خود رااز طریق راه های ارتباطی زیر با ما درمیان بگذارید
+                        <strong class="telephone">
+                            تلفن : 44530000-021
+                        </strong>
+                    </p>
+
+                    <!-- <div class="footer-left">
+                        <ul class="footer-left-icon">
+                            <li class="footer-left-icon-item">
+                                <a href="#" class="footer-left-icon-item-link">
+                                    <i class="social-media fa fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li class="footer-left-icon-item">
+                                <a href="#" class="footer-left-icon-item-link">
+                                    <i class="social-media fa fa-telegram"></i>
+                                </a>
+                            </li>
+                            <li class="footer-left-icon-item">
+                                <a href="#" class="footer-left-icon-item-link">
+                                    <i class="social-media fa fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="footer-left-icon-item">
+                                <a href="#" class="footer-left-icon-item-link">
+                                    <i class="social-media fa fa-whatsapp"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyRight">
+            <small class="text-muted"> &copy; کلیه حقوق محصولات و محتوای این سایت متعلق به گروه<strong> آموزش آنلاین
+                </strong>
+                می باشد و هرگونه کپی برداری از آن ها بدون رضایت ماست .</small>
+        </div>
+    </footer>
 
     <!--end footer-->
 
     <!--start scripts source -->
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
     <script src="./js/jquery.min.js"></script>
