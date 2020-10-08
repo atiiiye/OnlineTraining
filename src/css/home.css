@@ -702,7 +702,9 @@ section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div
 }
 
 section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.owl-nav button.owl-prev:focus, section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.owl-nav button.owl-prev:active {
-  border-color: transparent;
+  border: none;
+  outline: none;
+  border-color: transparent !important;
 }
 
 section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.owl-nav button.owl-prev i.fa.fa-angle-left {
@@ -720,7 +722,8 @@ section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div
 
 section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.owl-nav button.owl-next:focus, section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.owl-nav button.owl-next:active {
   border: none;
-  border-color: transparent;
+  outline: none;
+  border-color: transparent !important;
 }
 
 section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.owl-nav button.owl-next i.fa.fa-angle-right {
@@ -757,6 +760,25 @@ section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div
   transition: .2s all;
 }
 
+section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer:before, section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer:after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  top: 80%;
+  width: 50%;
+  z-index: -1;
+  max-width: 300px;
+  box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
+  transform: rotate(-3deg);
+}
+
+section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer:after {
+  transform: rotate(3deg);
+  right: 0;
+  left: auto;
+}
+
 section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer:hover .controls__btns {
   display: flex;
 }
@@ -772,7 +794,7 @@ section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div
   display: flex;
   flex-direction: column;
   width: 100%;
-  background: rgba(250, 246, 251, 0.5);
+  background: transparent;
 }
 
 section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer div.myplayer__controls div.controls__progressbar {
@@ -787,7 +809,9 @@ section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div
   height: 6px;
   margin: 0;
   position: absolute;
+  bottom: 0;
   width: 100%;
+  display: flex;
   background: linear-gradient(90deg, #32ff6a 0%, #e1e1e1 0%);
 }
 
@@ -838,8 +862,11 @@ section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div
   align-items: center;
 }
 
+section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer div.myplayer__controls div.controls__btns div.left div.btns i.icon:focus, section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer div.myplayer__controls div.controls__btns div.left div.btns i.icon:hover {
+  color: #32ff6a;
+}
+
 section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer div.myplayer__controls div.controls__btns div.left div.btns.play {
-  font-size: 1.3em;
   cursor: pointer;
   color: #faf6fb;
 }
@@ -848,9 +875,17 @@ section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div
   margin-left: 20px;
 }
 
+section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer div.myplayer__controls div.controls__btns div.left div.timer span:hover {
+  color: #32ff6a;
+}
+
 section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer div.myplayer__controls div.controls__btns div.right {
   display: flex;
   align-items: center;
+}
+
+section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer div.myplayer__controls div.controls__btns div.right div.btns i.icon:focus, section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer div.myplayer__controls div.controls__btns div.right div.btns i.icon:hover {
+  color: #32ff6a;
 }
 
 section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer div.myplayer__controls div.controls__btns div.right div.btns.volume {
@@ -956,16 +991,16 @@ footer div.footer-center div.footer-center1 h3.footer-center-heading {
   margin: 0 .1rem 0;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   justify-content: flex-start;
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 
 footer div.footer-center div.footer-center1 p.footer-center-description {
   display: flex;
-  flex-direction: column;
-  font-weight: bold;
-  text-align: right;
   padding-top: .3rem;
   margin: 0 .1rem 0;
   text-align: justify;
+  font-size: 95%;
 }
 
 footer div.footer-center div.footer-center2 {
@@ -980,16 +1015,20 @@ footer div.footer-center div.footer-center2 h3.footer-center-heading {
   padding-bottom: 3px;
   margin: 0 .1rem 0;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 
 footer div.footer-center div.footer-center2 p.footer-center-description {
-  display: flex;
-  flex-direction: column;
-  text-align: right;
   padding-top: .3rem;
-  font-weight: bold;
   margin: 0 .1rem 0;
   text-align: justify;
+  font-size: 95%;
+}
+
+footer div.footer-center div.footer-center2 strong.telephone {
+  font-size: 90%;
+  font-weight: 500;
 }
 
 footer div.footer-center div.footer-center2 div.footer-left ul.footer-left-icon {
