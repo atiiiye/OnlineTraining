@@ -43,6 +43,8 @@ header.container-fluid {
                 justify-content: center;
 
 
+
+
                 &:hover {
                     background-color: rgba($color: $color-green-3, $alpha: 1.0);
 
@@ -93,7 +95,12 @@ header.container-fluid {
 
                 &:hover,
                 &:focus {
-                    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, .5);
+                    box-shadow: 0 0 0 0.2rem rgba($color: $color-light, $alpha: .5);
+                }
+
+                i.fa-user-alt {
+                    color: rgba($color: $color-light-2, $alpha: .9);
+                    font-size: 24px;
                 }
             }
         }
@@ -617,7 +624,6 @@ header.container-fluid {
 section.main-content.container {
     width: 100%;
 
-    // margin: 3rem;
     div.section-title {
         display: flex;
         flex-direction: column;
@@ -638,9 +644,9 @@ section.main-content.container {
 
     div.card {
         width: 100%;
-        height: 450px;
+        height: 440px;
         margin: .2rem 0 1rem;
-        padding: 0rem 1rem;
+        padding: 0rem .7rem;
         box-shadow: 8px 8px 16px 0px rgba(0, 0, 0, 0.2);
         display: flex;
         align-items: center;
@@ -723,9 +729,10 @@ section.main-content.container {
 
 section.slide-video.container-fluid {
     width: 100%;
-    height: max-content;
-    background-color: $color-light-2;
+    height: 90vh;
+    background-color: $color-light;
     margin-top: 2rem;
+    // margin-bottom: 2rem;
 
     div.video-gallery.owl-carousel.owl-theme {
         display: flex;
@@ -757,8 +764,8 @@ section.slide-video.container-fluid {
             button.owl-prev {
                 color: $color-gray;
                 position: absolute;
-                top: 50%;
-                left: 0;
+                top: 35%;
+                left: 6%;
                 border: none;
                 border-color: transparent;
 
@@ -777,8 +784,8 @@ section.slide-video.container-fluid {
             button.owl-next {
                 color: $color-gray;
                 position: absolute;
-                top: 50%;
-                right: 0;
+                top: 35%;
+                right: 6%;
                 border: none;
                 border-color: transparent;
 
@@ -796,7 +803,7 @@ section.slide-video.container-fluid {
 
             button.owl-next.disabled,
             button.owl-prev.disabled {
-                opacity: .5;
+                opacity: .3;
             }
         }
 
@@ -814,7 +821,7 @@ section.slide-video.container-fluid {
                 justify-content: center;
                 align-items: center;
                 margin-left: 5%;
-                // font-size: 95%;
+                font-size: 1.2rem;
                 text-align: justify;
 
             }
@@ -823,26 +830,30 @@ section.slide-video.container-fluid {
                 position: relative;
                 display: flex;
                 direction: ltr;
-                overflow: hidden;
                 transition: .2s all;
+                width: 60%;
+                height: max-content;
+                background: rgba($color: $color-light-2, $alpha: 1.0);
+                border: 1px solid rgba($color: #000000, $alpha: .8);
 
-                &:before,
-                &:after {
-                    content: "";
+                &::before,
+                &::after {
+                    background: rgba($color: $color-light, $alpha: 1.0);
+                    z-index: -1;
                     position: absolute;
-                    bottom: -10px;
-                    left: 0;
+                    content: "";
+                    bottom: 15px;
+                    left: 8px;
                     top: 80%;
                     width: 50%;
-                    z-index: -1;
                     max-width: 300px;
-                    box-shadow: 0 15px 10px rgba(0, 0, 0, .7);
+                    box-shadow: 0 12px 10px .2rem rgba(0, 0, 0, 0.7);
                     transform: rotate(-3deg);
                 }
 
-                &:after {
+                &::after {
                     transform: rotate(3deg);
-                    right: 0;
+                    right: 8px;
                     left: auto;
                 }
 
@@ -853,7 +864,8 @@ section.slide-video.container-fluid {
                 video {
                     width: 100%;
                     height: auto;
-                    // box-shadow: 0rem 1rem 0rem rgba($color: red, $alpha: 1.0);
+
+
                 }
 
                 div.myplayer__controls {
@@ -863,6 +875,7 @@ section.slide-video.container-fluid {
                     flex-direction: column;
                     width: 100%;
                     background: transparent;
+                    // padding: .8rem;
 
                     div.controls__progressbar {
                         height: 6px;
@@ -930,6 +943,7 @@ section.slide-video.container-fluid {
 
                             div.btns {
                                 i.icon {
+                                    font-size: 22px;
 
                                     &:focus,
                                     &:hover {
@@ -939,7 +953,6 @@ section.slide-video.container-fluid {
                             }
 
                             div.btns.play {
-                                // font-size: 3rem;
                                 cursor: pointer;
                                 color: rgba($color: $color-light-2, $alpha: 1.0);
                             }
@@ -949,6 +962,8 @@ section.slide-video.container-fluid {
                                 margin-left: 20px;
 
                                 span {
+                                    font-size: 20px;
+
                                     &:hover {
                                         color: rgba($color: $color-green-3, $alpha: 1.0);
                                     }
@@ -962,6 +977,7 @@ section.slide-video.container-fluid {
 
                             div.btns {
                                 i.icon {
+                                    font-size: 22px;
 
                                     &:focus,
                                     &:hover {

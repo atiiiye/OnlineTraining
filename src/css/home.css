@@ -132,7 +132,12 @@ header.container-fluid div.register-login div.buttons button.btn.login {
 }
 
 header.container-fluid div.register-login div.buttons button.btn.login:hover, header.container-fluid div.register-login div.buttons button.btn.login:focus {
-  box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.5);
+}
+
+header.container-fluid div.register-login div.buttons button.btn.login i.fa-user-alt {
+  color: rgba(250, 246, 251, 0.9);
+  font-size: 24px;
 }
 
 header.container-fluid div.navbar {
@@ -589,9 +594,9 @@ section.main-content.container div.section-title h4.text-muted.lead {
 
 section.main-content.container div.card {
   width: 100%;
-  height: 450px;
+  height: 440px;
   margin: .2rem 0 1rem;
-  padding: 0rem 1rem;
+  padding: 0rem .7rem;
   box-shadow: 8px 8px 16px 0px rgba(0, 0, 0, 0.2);
   display: flex;
   align-items: center;
@@ -661,8 +666,8 @@ section.main-content.container div.card div.img-gallery.owl-carousel.owl-theme.o
 
 section.slide-video.container-fluid {
   width: 100%;
-  height: max-content;
-  background-color: #faf6fb;
+  height: 90vh;
+  background-color: #fff;
   margin-top: 2rem;
 }
 
@@ -695,8 +700,8 @@ section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div
 section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.owl-nav button.owl-prev {
   color: #6c757d;
   position: absolute;
-  top: 50%;
-  left: 0;
+  top: 35%;
+  left: 6%;
   border: none;
   border-color: transparent;
 }
@@ -714,8 +719,8 @@ section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div
 section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.owl-nav button.owl-next {
   color: #6c757d;
   position: absolute;
-  top: 50%;
-  right: 0;
+  top: 35%;
+  right: 6%;
   border: none;
   border-color: transparent;
 }
@@ -732,7 +737,7 @@ section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div
 
 section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.owl-nav button.owl-next.disabled,
 section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.owl-nav button.owl-prev.disabled {
-  opacity: .5;
+  opacity: .3;
 }
 
 section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide {
@@ -749,6 +754,7 @@ section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div
   justify-content: center;
   align-items: center;
   margin-left: 5%;
+  font-size: 1.2rem;
   text-align: justify;
 }
 
@@ -756,26 +762,30 @@ section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div
   position: relative;
   display: flex;
   direction: ltr;
-  overflow: hidden;
   transition: .2s all;
+  width: 60%;
+  height: max-content;
+  background: #faf6fb;
+  border: 1px solid rgba(0, 0, 0, 0.8);
 }
 
-section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer:before, section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer:after {
-  content: "";
+section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer::before, section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer::after {
+  background: white;
+  z-index: -1;
   position: absolute;
-  bottom: -10px;
-  left: 0;
+  content: "";
+  bottom: 15px;
+  left: 8px;
   top: 80%;
   width: 50%;
-  z-index: -1;
   max-width: 300px;
-  box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
+  box-shadow: 0 12px 10px 0.2rem rgba(0, 0, 0, 0.7);
   transform: rotate(-3deg);
 }
 
-section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer:after {
+section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer::after {
   transform: rotate(3deg);
-  right: 0;
+  right: 8px;
   left: auto;
 }
 
@@ -862,6 +872,10 @@ section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div
   align-items: center;
 }
 
+section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer div.myplayer__controls div.controls__btns div.left div.btns i.icon {
+  font-size: 22px;
+}
+
 section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer div.myplayer__controls div.controls__btns div.left div.btns i.icon:focus, section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer div.myplayer__controls div.controls__btns div.left div.btns i.icon:hover {
   color: #32ff6a;
 }
@@ -875,6 +889,10 @@ section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div
   margin-left: 20px;
 }
 
+section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer div.myplayer__controls div.controls__btns div.left div.timer span {
+  font-size: 20px;
+}
+
 section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer div.myplayer__controls div.controls__btns div.left div.timer span:hover {
   color: #32ff6a;
 }
@@ -882,6 +900,10 @@ section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div
 section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer div.myplayer__controls div.controls__btns div.right {
   display: flex;
   align-items: center;
+}
+
+section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer div.myplayer__controls div.controls__btns div.right div.btns i.icon {
+  font-size: 22px;
 }
 
 section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer div.myplayer__controls div.controls__btns div.right div.btns i.icon:focus, section.slide-video.container-fluid div.video-gallery.owl-carousel.owl-theme div.item-slide div.myplayer div.myplayer__controls div.controls__btns div.right div.btns i.icon:hover {
