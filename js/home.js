@@ -52,8 +52,6 @@ $(document).ready(function () {
   );
 
   let gallery = document.querySelector('div.img-gallery.owl-carousel');
-  // if (gallery.length && $.fn.owlCarousel) {
-  console.log(gallery)
   $('.img-gallery').owlCarousel({
     rtl: true,
     nav: false,
@@ -75,7 +73,6 @@ $(document).ready(function () {
   });
 
   let videoGallery = document.querySelector('div#video-gallery.owl-carousel');
-  console.log(videoGallery)
   $('#video-gallery').owlCarousel({
     rtl: true,
     nav: true,
