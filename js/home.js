@@ -51,7 +51,6 @@ $(document).ready(function () {
     })
   );
 
-  let gallery = document.querySelector('div.img-gallery.owl-carousel');
   $('.img-gallery').owlCarousel({
     rtl: true,
     nav: false,
@@ -59,7 +58,7 @@ $(document).ready(function () {
     dots: true,
     center: true,
     autoplay: true,
-    autoplayTimeout: 3000,
+    autoplayTimeout: 5000,
     loop: true,
     lazyLoad: true,
     responsive: {
@@ -72,7 +71,6 @@ $(document).ready(function () {
     }
   });
 
-  let videoGallery = document.querySelector('div#video-gallery.owl-carousel');
   $('#video-gallery').owlCarousel({
     rtl: true,
     nav: true,
