@@ -151,6 +151,7 @@ header.container-fluid div.navbar {
 
 @media (max-width: 991px) {
   header.container-fluid div.navbar {
+    background-color: transparent;
     padding-top: 1rem;
     padding-bottom: 1rem;
     min-height: 45px;
@@ -190,6 +191,7 @@ header.container-fluid div.navbar-right .hamburger-menu {
 header.container-fluid div.navbar-right .hamburger-menu .navbar-toggler-icon {
   width: 1.8em;
   height: 1.8em;
+  border: 1px solid #6c757d;
 }
 
 header.container-fluid div.navbar-right .hamburger-menu .change .menu-line-1 {
@@ -219,8 +221,8 @@ header.container-fluid div.navbar-right .hamburger-menu .menu {
 
 header.container-fluid div.navbar-right .hamburger-menu .menu-line {
   width: 100%;
-  height: 3px;
-  background-color: #fff;
+  height: 4px;
+  background-color: #6c757d;
   border-radius: 2px;
   transition: all .3s .3s;
   transform-origin: left;
@@ -666,7 +668,7 @@ section.main-content.container div.card div.img-gallery.owl-carousel.owl-theme.o
 
 section.slide-video.container-fluid {
   width: 100%;
-  height: 90vh;
+  height: 550px;
   background-color: #fff;
   margin-top: 2rem;
 }
